@@ -8,26 +8,91 @@
   --background-end-rgb: 255, 255, 255;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.principal{  
+  background-color:rgb(119,39,129);
+  background-image: radial-gradient(circle, rgba(60,50,129,0.598433123249299) -50%, rgba(0,0,0,1) 100%);
+}
+.animation-title{
+    animation:1s inicio 1;
+}
+.animation-title-dos{
+  animation:1s inicio-dos 1;
+}
+.animation-button{
+  animation:1s inicio-button 1;
+  box-shadow:0px 0px 5px cyan;
+ 
+}
+.animation-button:hover{
+  transition:all 0.8s ease-in-out;
+  box-shadow:0px 0px 20px cyan;
+ 
+}
+.animation-imagen{
+  animation:1s inicio-img 1;
+  
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+@keyframes inicio {
+  0% {
+   opacity:0;
+  }
+  100% {
+    opacity:1
+ 
   }
 }
+@keyframes inicio-dos {
+  0% {
+   opacity:0;
+  }
+  30%{
+    opacity:0;
+  }
+  100% {
+    opacity:1
+ 
+  }
+}
+@keyframes inicio-button {
+  0% {
+   opacity:0;
+  }
+  60%{
+    opacity:0;
+  }
+  100% {
+    opacity:1
+ 
+  }
+}
+@keyframes inicio-img{
+  0% {
+   opacity:0;
+   transform: translateY(300px);
+  }
+  
+  100% {
+    opacity:1;
+    transform: translateY(0px);
+  }
+}
+@keyframes scale-up {
+	to { scale: 1.5; }
+}
+
+@keyframes fade-away {
+	to { opacity: 0; }
+}
+
+
+.imagen{
+  filter:drop-shadow(
+    0 0 50px rgba(88, 3, 128, 0.8)
+  );
+  
+  transition:all 1s ;
+}
+
+
+
