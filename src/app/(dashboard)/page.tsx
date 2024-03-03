@@ -53,8 +53,8 @@ export default function HomePage() {
         >
             
             <h2 className="w-full h-[300px] bg-black flex flex-col justify-center items-center">
-                <p className=" text-6xl bg-gradient-to-r from-blue-700   to-blue-400
-                        text-transparent bg-clip-text">El futuro es hoy</p>
+                <p className=" text-6xl bg-gradient-to-r from-white via-purple-400  to-blue-400
+                        text-transparent bg-clip-text">Presencia en linea</p>
             </h2>
             
             
