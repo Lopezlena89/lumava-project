@@ -5,7 +5,7 @@ export const SvgComponent = () => (
     width={1490}
     height={1136}
     fill="none"
-    className="fixed w-full h-full"
+    className="fixed w-full h-full "
   >
     <g
       stroke="#fff"

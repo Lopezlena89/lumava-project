@@ -53,9 +53,63 @@ export default function HomePage() {
             
         </section>
         <section
-            className="w-full h-auto bg-black flex flex-col "   
+            className="w-full h-auto bg-black flex flex-col z-10 "   
         >
             <CardGrid/>
+        </section>
+        <section className="w-full h-auto mt-16 p-5  " >
+            <div className="w-full h-full  flex flex-col  md:flex-row rounded-xl border border-gray-800 bg-gradient-to-r from-black to-gray-950">
+                <Image
+                    alt="data-image" 
+                    src={"/data.webp" } 
+                    loading="lazy" 
+                    width={400} 
+                    height={400} 
+                    className="w-full h-[600px] rounded-xl relative" 
+                />
+                <div className="w-full h-full flex flex-col p-10 ">
+                        <div className="w-full h-[50px] mt-5 flex justify-center items-center text-center">
+                            <h3 className="text-purple-200 text-4xl ">¿Porque elegir a <span className="bg-gradient-to-r from-white via-purple-400  to-blue-400
+                            text-transparent bg-clip-text" >Lumava</span>?</h3>
+                        </div>
+                        <div className="w-full h- text-purple-200">
+                            <p className="mt-10 text-xl">{`"Lealtad, la lealtad es de ambas partes si lo pido de ti lo recibiras de mí"`}</p>
+                            <p className="mt-10 text-purple-200">
+                                Somos un equipo de profesionales, que tenemos tatuados nuestros valores, sabemos que tu negocio es muy importante, nosotros lo cuidamos y te ayudamos a crecer junto con la alta demanda que el mercado lo exige.
+                            </p>
+                            <p className="mt-10 text-purple-200">
+                                Garantizamos la comunicacion en cada proceso de tu proyecto, ademas estamos capacitandonos constantemente con las nuevas tecnologias para entregarles un servicio de calidad. 
+                            </p>
+                        </div>
+                </div>
+            </div>
+        </section>
+        <section className="w-full h-[400px] mt-20 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
+            <div className="w-full h-full flex flex-col justify-start items-center">
+                <div className="w-[80%] h-[50px] flex justify-center items-center border-b-2 opacity-85 border-solit border-purple-200">
+                        <h3><Link href="#" className="text-purple-200 text-2xl text-center hover:text-violet-500  duration-1000">Desarrollo web</Link></h3>
+                </div>
+                <div className="w-full h-full ">
+
+                </div>
+            </div>
+            <div className="w-full h-full flex flex-col justify-start items-center">
+                <div className="w-[80%] h-[50px] flex justify-center items-center border-b-2 opacity-85 border-solit border-purple-200">
+                        <h3><Link href="#" className="text-purple-200 text-2xl text-center hover:text-violet-500  duration-1000">Diseño & Branding</Link></h3>
+                </div>
+                <div className="w-full h-full ">
+
+                </div>
+            </div>
+            <div className="w-full h-full flex flex-col justify-start items-center">
+                <div className="w-[80%] h-[50px] flex justify-center items-center border-b-2 opacity-85 border-solit border-purple-200">
+                        <h3><Link href="#" className="text-purple-200 text-2xl text-center hover:text-violet-500  duration-1000">Proyectos</Link></h3>
+                </div>
+                <div className="w-full h-full ">
+
+                </div>
+            </div>
+
         </section>
                 
     </main>

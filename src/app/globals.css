@@ -32,6 +32,19 @@
   animation:1s inicio-img 1;
   
 }
+.imagen{
+  filter:drop-shadow(
+    0 0 50px rgba(88, 3, 128, 0.8)
+  );
+  transition:all 1s ;
+}
+.imagen-2:hover{
+  box-shadow: 0 0 50px rgba(88, 3, 128, 0.8);
+  
+  transition:all 1s ;
+}
+
+
 
 @keyframes inicio {
   0% {
@@ -77,39 +90,3 @@
     transform: translateY(0px);
   }
 }
-@keyframes scale-up {
-	to { scale: 1.5; }
-}
-
-@keyframes fade-away {
-	to { opacity: 0; }
-}
-
-
-.imagen{
-  filter:drop-shadow(
-    0 0 50px rgba(88, 3, 128, 0.8)
-  );
-  
-  transition:all 1s ;
-}
-
-
-.swiper {
-  width: 100%;
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
-
-.swiper-slide {
-  background-position: center;
-  background-size: cover;
-  width: 300px;
-  height: 300px;
-}
-
-.swiper-slide img {
-  display: block;
-  width: 100%;
-}
-
