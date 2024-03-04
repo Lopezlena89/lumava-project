@@ -1,17 +1,20 @@
-import { Navbar } from "@/components/navbar/Navbar";
+
+import { CardGrid } from "@/components/card/CardGrid";
+
 import SvgComponent from "@/components/svg/ImageSvg";
 import SvgComponent1 from "@/components/svg/ImageSvgG1";
+
 import Image from "next/image";
 import Link from "next/link";
 
 
 export default function HomePage() {
   return (
-    <main>
+    <main className="overflow-hidden">
                
         <SvgComponent />
         <SvgComponent1/>
-        <section className="principal w-full h-full  flex flex-col  overflow-hidden ">
+        <section className="principal w-full h-full  flex flex-col  overflow-hidden">
             <div className="w-full h-full relative">
                 <div className="w-full h-[500px]  flex flex-col items-center justify-center  ">
                     <div 
@@ -49,15 +52,9 @@ export default function HomePage() {
             
         </section>
         <section
-            className="w-full h-[1000px] bg-black"   
+            className="w-full h-auto bg-black flex flex-col"   
         >
-            
-            <h2 className="w-full h-[300px] bg-black flex flex-col justify-center items-center">
-                <p className=" text-6xl bg-gradient-to-r from-white via-purple-400  to-blue-400
-                        text-transparent bg-clip-text">Presencia en linea</p>
-            </h2>
-            
-            
+            <CardGrid/>
         </section>
                 
     </main>

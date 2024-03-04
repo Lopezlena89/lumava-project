@@ -7,7 +7,7 @@ export default async function CheckoutLayout({children}: {
 
   return (
     <>
-    <div className="w-screen h-screen">
+    <div className="w-full h-full">
         <Navbar/>
         <NavbarMovil/>
         { children }
