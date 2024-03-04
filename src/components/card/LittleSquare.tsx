@@ -1,13 +1,10 @@
-import { CiGlobe,CiAt } from "react-icons/ci";
+import { CiGlobe } from "react-icons/ci";
 import { HiOutlineUserGroup } from "react-icons/hi2";
 import { PiPaintBrushThin } from "react-icons/pi";
 import { FiTrendingUp } from "react-icons/fi";
 import { LiaLaptopCodeSolid } from "react-icons/lia";
 import { GiReceiveMoney } from "react-icons/gi";
 import { useCallback } from "react";
-
-
-
 
 export const LittleSquare = ({icon}:{icon:string}) => {
   

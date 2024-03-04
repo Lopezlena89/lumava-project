@@ -43,7 +43,8 @@ export default function HomePage() {
                 <div className="w-full h-[200px] md:h-[300px]  flex justify-center items-center animation-imagen relative ">
                     <Image 
                         alt="ipadpro" 
-                        src={"/ipadpro.webp" }  
+                        src={"/ipadpro.webp" } 
+                        loading="lazy" 
                         width={700} 
                         height={700} 
                         className="imagen absolute sm:-bottom-72 md:-bottom-[55%]  "  />
@@ -52,7 +53,7 @@ export default function HomePage() {
             
         </section>
         <section
-            className="w-full h-auto bg-black flex flex-col"   
+            className="w-full h-auto bg-black flex flex-col "   
         >
             <CardGrid/>
         </section>
