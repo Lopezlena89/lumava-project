@@ -1,5 +1,6 @@
 
 import { CardGrid } from "@/components/card/CardGrid";
+import { Form } from "@/components/form/Form";
 
 import SvgComponent from "@/components/svg/ImageSvg";
 import SvgComponent1 from "@/components/svg/ImageSvgG1";
@@ -84,33 +85,59 @@ export default function HomePage() {
                 </div>
             </div>
         </section>
-        <section className="w-full h-[400px] mt-20 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
-            <div className="w-full h-full flex flex-col justify-start items-center">
+        <section className="w-full min-h-[400px] mt-20 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
+            <div className="w-full h-full flex flex-col justify-center items-center">
                 <div className="w-[80%] h-[50px] flex justify-center items-center border-b-2 opacity-85 border-solit border-purple-200">
                         <h3><Link href="#" className="text-purple-200 text-2xl text-center hover:text-violet-500  duration-1000">Desarrollo web</Link></h3>
                 </div>
-                <div className="w-full h-full ">
-
+                <div className="w-[70%] h-full text-purple-200 p-5">
+                    <ul className="w-full list-disc">
+                        <li><Link href="#">Planificacion</Link></li>
+                        <li><Link href="#">Diseño</Link></li>
+                        <li><Link href="#">Desarrollo</Link></li>
+                        <li><Link href="#">Contenido</Link></li>
+                        <li><Link href="#">Pruebas y revision</Link></li>
+                        <li><Link href="#">Lanzamiento</Link></li>
+                        <li><Link href="#">Mantenimiento</Link></li>
+                    </ul>
                 </div>
             </div>
             <div className="w-full h-full flex flex-col justify-start items-center">
                 <div className="w-[80%] h-[50px] flex justify-center items-center border-b-2 opacity-85 border-solit border-purple-200">
                         <h3><Link href="#" className="text-purple-200 text-2xl text-center hover:text-violet-500  duration-1000">Diseño & Branding</Link></h3>
                 </div>
-                <div className="w-full h-full ">
-
+                <div className="w-[70%] h-full text-purple-200 p-5">
+                    <ul className="w-full list-disc">
+                        <li><Link href="#">Investigación y análisis</Link></li>
+                        <li><Link href="#">Definición de la estrategia de branding</Link></li>
+                        <li><Link href="#">Diseño del logotipo</Link></li>
+                        <li><Link href="#">Desarrollo de la identidad visual</Link></li>
+                        <li><Link href="#">Creación de materiales de marketing y comunicación</Link></li>
+                        <li><Link href="#">Implementación y lanzamiento</Link></li>
+                        <li><Link href="#">Evaluación y ajuste</Link></li>
+                    </ul>
                 </div>
             </div>
             <div className="w-full h-full flex flex-col justify-start items-center">
                 <div className="w-[80%] h-[50px] flex justify-center items-center border-b-2 opacity-85 border-solit border-purple-200">
                         <h3><Link href="#" className="text-purple-200 text-2xl text-center hover:text-violet-500  duration-1000">Proyectos</Link></h3>
                 </div>
-                <div className="w-full h-full ">
-
+                <div className="w-[70%] h-full text-purple-200 p-5">
+                    <ul className="w-full list-disc">
+                        <li><Link href="#">Meme Shop</Link></li>
+                        <li><Link href="#">Yoga Page</Link></li>
+                        <li><Link href="#">Street Smart Nutrition</Link></li>
+                        <li><Link href="#">Pure In Heart</Link></li>
+                    </ul>
                 </div>
             </div>
-
         </section>
+        <section className="w-full min-h-[500px]  relative p-10">
+            <Form/>
+        </section>
+        <footer className="w-full h-[300px]">
+
+        </footer>
                 
     </main>
   );
