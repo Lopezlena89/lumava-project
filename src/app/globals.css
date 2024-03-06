@@ -39,12 +39,15 @@
   transition:all 1s ;
 }
 .imagen-2:hover{
-  box-shadow: 0 0 50px rgba(88, 3, 128, 0.8);
-  
-  transition:all 1s ;
+  box-shadow: 0 0 50px rgb(75, 0, 151,0.6) ;
+  transform:scale(1.05);
+  transition:all 0.8s ;
 }
 
-
+.card{
+  backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, 0.05); 
+}
 
 @keyframes inicio {
   0% {

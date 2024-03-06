@@ -30,34 +30,34 @@ export const Navbar = () => {
             <li className="hidden md:flex items-center justify-evenly lg:justify-end md:text-[13px] lg:text-base w-[88%] text-purple-200">
                 <Link
                     className={`pr-3 hover:text-violet-500 hover:duration-300 ${path==="/" ?"text-violet-500 " :""}`}
-                    href='#'
+                    href='/'
                 >
                     Nosotros
                 </Link>
                 
                 <Link
-                    className="pr-3 hover:text-violet-500 hover:duration-300"
+                    className={`pr-3 hover:text-violet-500 hover:duration-300 ${path==="/portfolio" ?"text-violet-500 " :""}`}
                     href='/portfolio'
                 >
                     Portafolio
                 </Link>
                 
                 <Link
-                    className="pr-3 hover:text-violet-500 hover:duration-300"
+                    className={`pr-3 hover:text-violet-500 hover:duration-300 ${path==="/web-developmen" ?"text-violet-500 " :""}`}
                     href='/web-developmen'
                 >
                     Desarrollo Web
                 </Link>
                 
                 <Link
-                    className="pr-3 hover:text-violet-500 hover:duration-300"
+                    className={`pr-3 hover:text-violet-500 hover:duration-300 ${path==="/design-and-branding" ?"text-violet-500 " :""}`}
                     href='/design-and-branding'
                 >
                     Diseño & Branding
                 </Link>
                 
                 <Link
-                className='hover:text-violet-500 hover:duration-300'
+                className={`hover:text-violet-500 hover:duration-300 ${path==="/offers" ?"text-violet-500 " :""}`}
                     href='/offers'
                 >
                     Paquetes

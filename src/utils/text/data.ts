@@ -27,3 +27,93 @@ export const getDataWeb =[
         text:"Si vendes productos o servicios, una página web te proporciona una plataforma para realizar ventas en línea, llegar a clientes objetivos en todo el mundo."
     },
 ]
+
+export const offersWeb =[
+   {
+    titulo:"Landing",
+    precio:"$3500",
+    subtitulo:"Perfecto para presencia en linea",
+    contenido:[
+        "Diseño personalizado (no plantillas)",
+        "Hosting y dominio con seguridad SSL anual",
+        "Formularios de captura",
+        "Integracion de redes sociales: Enlaces a tus perfiles",
+        "Diseños adaptables a dispositivos moviles",
+        "Asistencia y soporte tecnico continuo sobre tu sitio"
+    ]
+   },
+   {
+    titulo:"Emprendedor",
+    precio:"$5500",
+    subtitulo:"Ideal para que tu pagina se destaque, futuro prometedor",
+    contenido:[
+        "Diseño personalizado a la identidad de tu marca (no plantillas)",
+        "Rendimiento de pagina",
+        "Hosting y dominio con seguridad SSL anual",
+        "2 Diseños personalizados de imagenes",
+        "Hasta 3 paginas",
+        "Diseño adaptable a dispositivos moviles",
+        "Integracion de redes sociales: Enlaces a tus perfiles",
+        "Asistencia y soporte tecnico  continuo sobre el sitio"
+    ]
+   },
+   {
+    titulo:"Bussiness",
+    precio:"$15,000",
+    subtitulo:"Ideal para negocios establecidos con ventas a nivel nacional",
+    contenido:[
+        "Diseño personalizado a la identidad de tu marca (no plantillas)",
+        "Rendimiento de pagina",
+        "Hosting y dominio con seguridad SSL anual",
+        "8 Diseños personalizados de imagenes",
+        "Hasta 10 paginas",
+        "Diseño adaptable a dispositivos moviles",
+        "Integracion de redes sociales: Enlaces a tus perfiles",
+        "Carrito de compras",
+        "Pagina de administrador (Eliminar,Actualizar, Agregar productos)",
+        "Control de usuarios y pagos",
+        "Asistencia y soporte tecnico  continuo sobre el sitio"
+    ]
+   }
+]
+export const offersDesign =[
+   {
+    titulo:"Bronce",
+    precio:"$7000",
+    contenido:[
+        "Moodboard",
+        "Brand Manifesto",
+        "Paleta de colores",
+        "Tipografias",
+        "Logo Principal",
+        "Logo Secundario",
+        "Sello/Timbre",
+        "Morckups complementarios"
+    ]
+   },
+   {
+    titulo:"Silver",
+    precio:"$9000",
+    contenido:[
+        "Hoja membretada",
+        "Carpeta membretada",
+        "Sobre membretado",
+        "Gafete",
+        "Tarjeta de presentación",
+        "Necesidad especifica del cliente (receta,etiqueta, notas, agenda, libreta, etc.)",
+        
+    ]
+   },
+   {
+    titulo:"Golden",
+    precio:"$12,500",
+    contenido:[
+        "Foto de perfil (Instagram, Facebook, WhatsApp)",
+        "Portada Facebook",
+        "Firma electronica (para email)",
+        "Diseño de feed(ig)",
+        "9 Post para redes sociales (incluidad plantillas)",
+        "6 Hightlights (portadas de historias destacadas)", 
+    ]
+   }
+]
