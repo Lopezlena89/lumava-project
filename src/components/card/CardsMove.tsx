@@ -1,3 +1,5 @@
+'use client'
+import { useCallback } from "react"
 
 interface Props{
     data: {
@@ -8,7 +10,28 @@ interface Props{
     }
 }
 
+
+
 export const CardsMove = ({data}:Props) => {
+
+    const ListCard = useCallback(()=>{
+        return(
+            <>
+                 <div className='w-full h-full p-5 text-purple-200'>
+                    <ul className="w-full list-disc text-sm">
+                    {
+                        data.contenido.map((txt,index)=>(
+                            
+                            <li key={index}>{txt}</li>
+                        
+                        ))
+                    }
+                    </ul>
+                </div>
+            </>
+        )
+    },[data]);
+
   return (
     <div className='w-full h-auto flex justify-center items-center my-5'>
         <div className='w-[87%] h-auto card rounded-xl flex flex-col items-center imagen-2'>
@@ -19,17 +42,7 @@ export const CardsMove = ({data}:Props) => {
                 <p className='mt-2 text-sm text-purple-200'>{data.subtitulo}</p>
             </div>
             <div className='w-[90%] h-[1px]  bg-white/10'/>
-            <div className='w-full h-full p-5 text-purple-200'>
-                <ul className="w-full list-disc text-sm">
-                {
-                    data.contenido.map((txt,index)=>(
-                        <>
-                            <li key={index}>{txt}</li>
-                        </>
-                    ))
-                }
-                </ul>
-            </div>
+           <ListCard/>
             
         </div>
 

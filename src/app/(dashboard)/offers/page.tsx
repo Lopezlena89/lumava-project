@@ -37,11 +37,11 @@ export default function Offers() {
                 <div className="w-full min-h-[450px] grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
                     {
                       offersWeb.map((data,index)=>(
-                        <>
-                          <div key={index}>
+                       
+                          <div key={`${data}-${index}`}>
                             <CardsMove  data={data}/>
                           </div>
-                        </>
+                       
                       ))
                     }
                     
@@ -56,11 +56,11 @@ export default function Offers() {
                 <div className="w-full min-h-[450px] grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
                     {
                       offersDesign.map((data,index)=>(
-                        <>
-                          <div key={index}>
-                            <CardsMove  data={data}/>
-                          </div>
-                        </>
+                        
+                        <div key={`${data}-${index}`}>
+                          <CardsMove  data={data}/>
+                        </div>
+                        
                       ))
                     }
                     
