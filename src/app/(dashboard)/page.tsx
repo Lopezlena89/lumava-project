@@ -33,7 +33,7 @@ export default function HomePage() {
                         <p className="text-center"> y convierte tus deseos en adquisiciones</p>
                     </div>
                     <Link 
-                        href="#"
+                        href="/portfolio"
                         className="text-black w-40 h-10 flex justify-center items-center rounded-md   
                         mt-5 animation-button backdrop-blur-sm  bg-cyan-400 "
                     >
@@ -87,46 +87,46 @@ export default function HomePage() {
         <section className="w-full min-h-[400px] mt-20 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
             <div className="w-full h-full flex flex-col justify-center items-center">
                 <div className="w-[80%] h-[50px] flex justify-center items-center border-b-2 opacity-85 border-solit border-purple-200">
-                        <h3><Link href="#" className="text-purple-200 text-2xl text-center hover:text-violet-500  duration-1000">Desarrollo web</Link></h3>
+                        <h3><Link href="/web-developmen" className="text-purple-200 text-2xl text-center hover:text-violet-500  duration-1000">Desarrollo web</Link></h3>
                 </div>
                 <div className="w-[70%] h-full text-purple-200 p-5">
                     <ul className="w-full list-disc">
-                        <li><Link href="#">Planificacion</Link></li>
-                        <li><Link href="#">Diseño</Link></li>
-                        <li><Link href="#">Desarrollo</Link></li>
-                        <li><Link href="#">Contenido</Link></li>
-                        <li><Link href="#">Pruebas y revision</Link></li>
-                        <li><Link href="#">Lanzamiento</Link></li>
-                        <li><Link href="#">Mantenimiento</Link></li>
+                        <li>Planificacion</li>
+                        <li>Diseño</li>
+                        <li>Desarrollo</li>
+                        <li>Contenido</li>
+                        <li>Pruebas y revision</li>
+                        <li>Lanzamiento</li>
+                        <li>Mantenimiento</li>
                     </ul>
                 </div>
             </div>
             <div className="w-full h-full flex flex-col justify-start items-center">
                 <div className="w-[80%] h-[50px] flex justify-center items-center border-b-2 opacity-85 border-solit border-purple-200">
-                        <h3><Link href="#" className="text-purple-200 text-2xl text-center hover:text-violet-500  duration-1000">Diseño & Branding</Link></h3>
+                        <h3><Link href="/design-and-branding" className="text-purple-200 text-2xl text-center hover:text-violet-500  duration-1000">Diseño & Branding</Link></h3>
                 </div>
                 <div className="w-[70%] h-full text-purple-200 p-5">
                     <ul className="w-full list-disc">
-                        <li><Link href="#">Investigación y análisis</Link></li>
-                        <li><Link href="#">Definición de la estrategia de branding</Link></li>
-                        <li><Link href="#">Diseño del logotipo</Link></li>
-                        <li><Link href="#">Desarrollo de la identidad visual</Link></li>
-                        <li><Link href="#">Creación de materiales de marketing y comunicación</Link></li>
-                        <li><Link href="#">Implementación y lanzamiento</Link></li>
-                        <li><Link href="#">Evaluación y ajuste</Link></li>
+                        <li>Investigación y análisis</li>
+                        <li>Definición de la estrategia de branding</li>
+                        <li>Diseño del logotipo</li>
+                        <li>Desarrollo de la identidad visual</li>
+                        <li>Creación de materiales de marketing y comunicación</li>
+                        <li>Implementación y lanzamiento</li>
+                        <li>Evaluación y ajuste</li>
                     </ul>
                 </div>
             </div>
             <div className="w-full h-full flex flex-col justify-start items-center">
                 <div className="w-[80%] h-[50px] flex justify-center items-center border-b-2 opacity-85 border-solit border-purple-200">
-                        <h3><Link href="#" className="text-purple-200 text-2xl text-center hover:text-violet-500  duration-1000">Proyectos</Link></h3>
+                        <h3><Link href="/portfolio" className="text-purple-200 text-2xl text-center hover:text-violet-500  duration-1000">Proyectos</Link></h3>
                 </div>
                 <div className="w-[70%] h-full text-purple-200 p-5">
                     <ul className="w-full list-disc">
-                        <li><Link href="#">Meme Shop</Link></li>
-                        <li><Link href="#">Yoga Page</Link></li>
-                        <li><Link href="#">Street Smart Nutrition</Link></li>
-                        <li><Link href="#">Pure In Heart</Link></li>
+                        <li>Meme Shop</li>
+                        <li>Yoga Page</li>
+                        <li>Street Smart Nutrition</li>
+                        <li>Pure In Heart</li>
                     </ul>
                 </div>
             </div>
