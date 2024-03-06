@@ -37,41 +37,41 @@ export const Navbar = () => {
                 
                 <Link
                     className="pr-3 hover:text-violet-500 hover:duration-300"
-                    href='#'
+                    href='/portfolio'
                 >
                     Portafolio
                 </Link>
                 
                 <Link
                     className="pr-3 hover:text-violet-500 hover:duration-300"
-                    href='#'
+                    href='/web-developmen'
                 >
                     Desarrollo Web
                 </Link>
                 
                 <Link
                     className="pr-3 hover:text-violet-500 hover:duration-300"
-                    href='#'
+                    href='/design-and-branding'
                 >
                     Diseño & Branding
                 </Link>
                 
                 <Link
                 className='hover:text-violet-500 hover:duration-300'
-                    href='#'
+                    href='/offers'
                 >
                     Paquetes
                 </Link>
                 
                 <div className="flex items-center text-purple-200 ml-10">
                     <Link
-                        href='#'
+                        href='https://www.instagram.com/lumava_agency/'
                     >
                         <CiInstagram  className="p-2 cursor-pointer hover:text-violet-500 hover:duration-300" size={40}/>
                     </Link>
 
                     <Link
-                        href='#'
+                        href='mailto:lumavaagency@gmail.com'
                     >
                         <CiMail  className="p-2 cursor-pointer hover:text-violet-500 hover:duration-300" size={40}/>
                     </Link>

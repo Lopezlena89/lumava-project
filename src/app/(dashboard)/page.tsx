@@ -1,12 +1,11 @@
 
 import { CardGrid } from "@/components/card/CardGrid";
 import { Form } from "@/components/form/Form";
-
 import SvgComponent from "@/components/svg/ImageSvg";
 import SvgComponent1 from "@/components/svg/ImageSvgG1";
-
 import Image from "next/image";
 import Link from "next/link";
+import { Footer } from '../../components/footer/Footer';
 
 
 export default function HomePage() {
@@ -135,8 +134,8 @@ export default function HomePage() {
         <section className="w-full min-h-[500px]  relative p-10">
             <Form/>
         </section>
-        <footer className="w-full h-[300px]">
-
+        <footer className="w-full h-[100px] px-10 relative">
+            <Footer/>
         </footer>
                 
     </main>
