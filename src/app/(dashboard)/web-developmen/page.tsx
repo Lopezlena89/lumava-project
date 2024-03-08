@@ -31,7 +31,7 @@ export default function WebPage() {
                     </div>
 
                     <div className="w-full  h-full  absolute px-5 flex flex-col justify-center rounded-lg   ">
-                      <p className="text-purple-200 text-[10px]">1.- Define el propósito y los objetivos de la página web.</p>
+                      <p className="text-purple-200 text-[10px]">1.-Define el propósito y los objetivos de la página web.</p>
                       <p className="text-purple-200 text-[10px]">2.-Identifica a tu audiencia objetivo y sus necesidades.</p>
                       <p className="text-purple-200 text-[10px]">3.-Realiza una investigación de mercado y análisis de la competencia.</p>
                       <p className="text-purple-200 text-[10px]">4.-Elabora un plan de proyecto que incluya presupuesto, cronograma y recursos necesarios.</p>
@@ -84,7 +84,7 @@ export default function WebPage() {
                   <div  className="w-full h-full  top-2  flex flex-col  justify-center items-center  rounded-lg   border border-purple-400 ">
                     
                     <div className="w-full h-full  flex flex-col  justify-center items-center rounded-lg  card hover:opacity-0 duration-1000 z-10">
-                      <h3 className="text-xl text-center text-purple-200  font-semibold ">7.Mantenimiento:</h3>
+                      <h3 className="text-xl text-center text-purple-200  font-semibold ">7.Mantenimiento</h3>
                       <div className="w-full flex justify-center">
                         <CiCircleChevDown size={25} className="text-purple-500 "/>
                       </div>
@@ -123,7 +123,7 @@ export default function WebPage() {
                   <div  className="w-full h-full top-2  flex flex-col  justify-center items-center  rounded-lg   border border-purple-400 ">
                     
                     <div className="w-full h-full  flex flex-col  justify-center items-center rounded-lg  card hover:opacity-0 duration-1000 z-10">
-                      <h3 className="text-xl text-center text-purple-200  font-semibold ">6.Lanzamiento::</h3>
+                      <h3 className="text-xl text-center text-purple-200  font-semibold ">6.Lanzamiento</h3>
                       <div className="w-full flex justify-center">
                         <CiCircleChevDown size={25} className="text-purple-500 "/>
                       </div>
@@ -143,7 +143,7 @@ export default function WebPage() {
                   <div  className="w-full h-full top-2  flex flex-col  justify-center items-center  rounded-lg   border border-purple-400 ">
                     
                     <div className="w-full h-full  flex flex-col  justify-center items-center rounded-lg  card hover:opacity-0 duration-1000 z-10">
-                      <h3 className="text-xl text-center text-purple-200  font-semibold ">5.Pruebas y revisión:</h3>
+                      <h3 className="text-xl text-center text-purple-200  font-semibold ">5.Pruebas y revisión</h3>
                       <div className="w-full flex justify-center">
                         <CiCircleChevDown size={25} className="text-purple-500 "/>
                       </div>
@@ -162,7 +162,7 @@ export default function WebPage() {
                   <div  className="w-full h-full top-2  flex flex-col  justify-center items-center  rounded-lg border border-purple-400 ">
                     
                     <div className="w-full h-full  flex flex-col  justify-center items-center rounded-lg  card hover:opacity-0 duration-1000 z-10">
-                      <h3 className="text-xl text-center text-purple-200  font-semibold ">4.Contenido:</h3>
+                      <h3 className="text-xl text-center text-purple-200  font-semibold ">4.Contenido</h3>
                       <div className="w-full flex justify-center">
                         <CiCircleChevDown size={25} className="text-purple-500 "/>
                       </div>
