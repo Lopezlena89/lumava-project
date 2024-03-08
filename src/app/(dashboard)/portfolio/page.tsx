@@ -10,11 +10,11 @@ import { IoIosArrowRoundForward } from "react-icons/io";
 export default function Portfolio() {
 
   return (
-    <main className="principal w-full md:pt-16 mb-10 lg:h-screen overflow-hidden grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3  ">
+    <main className="principal w-full h-full md:pt-16 mb-10 md:mb-0 lg:h-screen overflow-hidden grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3  ">
       <SvgComponent />
       <SvgComponent1/>
       {/* Objeto 1 */}
-      <section className="w-full h-full  rounded-lg   flex flex-col relative ">
+      <section className="w-full h-full rounded-lg   flex flex-col relative ">
         <div className="w-full h-[350px]  p-1 rounded-lg border border-gray-800  from-black to-gray-950  ">
           <div className="w-full h-[87%] p-1 rounded-lg ">
             <Image
@@ -70,7 +70,7 @@ export default function Portfolio() {
 
       </section>
       {/* Objeto 2 */}
-      <section className="w-full h-full  rounded-lg flex flex-col relative">
+      <section className="w-full h-full rounded-lg flex flex-col relative">
         <div className="w-full h-[300px] p-1  rounded-lg border border-gray-800  from-black to-gray-950 ">
           <div className="w-full h-[87%] p-1 rounded-lg ">
             
@@ -125,7 +125,7 @@ export default function Portfolio() {
 
       </section>
       {/* Objeto 3 */}
-      <section className="w-full h-full  rounded-lg flex flex-col relative ">
+      <section className="w-full h-full rounded-lg flex flex-col relative ">
         <div className="w-full h-[350px] p-1  rounded-lg border border-gray-800  from-black to-gray-950 ">
           <div className="w-full h-[87%] p-1 rounded-lg ">
           <Image

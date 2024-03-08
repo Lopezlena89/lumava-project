@@ -15,7 +15,7 @@ export const Navbar = () => {
   return (
     <>
         <nav 
-            className="z-10 w-full h-16 hidden fixed md:flex justify-between items-center list-none 
+            className="z-20 w-full h-16 hidden fixed md:flex justify-between items-center list-none 
             font-sans backdrop-blur-sm bg-black/70 px-10"
         >
            

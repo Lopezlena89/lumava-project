@@ -9,7 +9,7 @@ export const NavbarMovil = () => {
   const path = usePathname()
   return (
     <>
-      <div className='w-full h-[45px] flex fixed md:hidden justify-evenly items-center backdrop-blur-sm bg-black/70  bottom-0  z-10'>
+      <div className='w-full h-[45px] flex fixed md:hidden justify-evenly items-center backdrop-blur-sm bg-black/70  bottom-0  z-20'>
           <Link href="/">
             <CiHome size={25} className={` ${path === "/"?"text-violet-500":"text-zinc-200"}`}/>
           </Link>

@@ -7,13 +7,13 @@ import { Footer } from '../../../components/footer/Footer';
 export default function Offers() {
     return (
       <>
-        <main className="principal w-full h-auto overflow-hidden">
+        <main className="principal  w-full h-auto overflow-hidden">
             <SvgComponent />
             <SvgComponent1/>
-            <section className=" w-full h-auto  flex flex-col  overflow-hidden">
+            <section className=" w-full h-auto   flex flex-col  overflow-hidden">
               <div className="w-full min-h-[250px]   flex flex-col items-center justify-end px-5 ">
                   <div 
-                      className="text-purple-200 font-sans font-semiboldanimation-title"
+                      className="text-purple-200 font-sans font-semibold animation-title"
                   >
                       <h3 className="text-center text-4xl md:text-6xl flex flex-col"> 
                               <span className="bg-gradient-to-r from-purple-200 via-purple-400  to-purple-800
