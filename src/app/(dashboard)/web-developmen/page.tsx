@@ -5,12 +5,12 @@ import { CiCircleChevDown } from "react-icons/ci";
 export default function WebPage() {
   return (
     <>
-      <main className="principal w-full h-auto md:h-screen md:pt-16  overflow-hidden  ">
+      <main className="principal w-full h-screen  md:pt-16 mb-10 md:mb-0 overflow-auto  ">
         <SvgComponent />
         <SvgComponent1/>
        
         <section className="w-full h-full flex flex-col items-center mb-10 md:mb-0">
-            <div className="w-full h-full grid sm:grid-cols-4 md:grid-cols-6 md:grid-rows-4">
+            <div className="w-full h-auto md:min-h-[750px] grid sm:grid-cols-4 md:grid-cols-6 md:grid-rows-4">
                 <div className="w-full h-[300px] md:h-full p-2  row-span-2 col-span-2 relative order-1 md:order-none">
                   
                     <div className="w-full h-full flex flex-col card items-center justify-center  rounded-lg border border-purple-400">
@@ -90,7 +90,7 @@ export default function WebPage() {
                       </div>
                     </div>
 
-                    <div className="w-full  h-full absolute flex px-5 flex-col justify-center rounded-lg  text-[13px] md:text-[10px] lg:text-[13px]">
+                    <div className="w-full  h-full absolute flex px-5 flex-col justify-center rounded-lg  text-[12px] lg:text-[13px]">
                       <p className="text-purple-200 ">1.-Realiza copias de seguridad periódicas del sitio web y su base de datos.</p>
                       <p className="text-purple-200 ">2.-Monitorea el rendimiento y la seguridad del sitio web, aplicando actualizaciones y parches según sea necesario.</p>
                       <p className="text-purple-200 ">3.-Agrega nuevo contenido y funcionalidades según evolucionen las necesidades del negocio o la audiencia.</p>

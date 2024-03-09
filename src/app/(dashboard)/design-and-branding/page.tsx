@@ -5,12 +5,12 @@ import { CiCircleChevDown } from "react-icons/ci";
 export default function DesignAndBranding() {
   return (
     <>
-      <main className="principal w-full h-auto md:h-screen md:pt-16  overflow-hidden  ">
+      <main className="principal w-full h-screen md:pt-16  mb-10 md:mb-0 overflow-auto  ">
         <SvgComponent />
         <SvgComponent1/>
        
         <section className="w-full h-full flex flex-col items-center mb-10 md:mb-0">
-            <div className="w-full h-full grid sm:grid-cols-4 md:grid-cols-6 md:grid-rows-4">
+            <div className="w-full h-auto md:min-h-[750px] grid sm:grid-cols-4 md:grid-cols-6 md:grid-rows-4">
                 <div className="w-full h-[300px] md:h-full p-2  row-span-2 col-span-2 relative order-1 md:order-none">
                   
                     <div className="w-full h-full flex flex-col card items-center justify-center  rounded-lg border border-purple-400">
@@ -89,7 +89,7 @@ export default function DesignAndBranding() {
                       </div>
                     </div>
 
-                    <div className="w-full  h-full absolute flex px-5 flex-col justify-center rounded-lg text-[13px] md:text-[10px] lg:text-[13px] ">
+                    <div className="w-full  h-full absolute flex px-5 flex-col justify-center rounded-lg text-[10px] lg:text-[13px] ">
                       <p className="text-purple-200 ">1.-Realiza seguimiento de la recepción de la nueva identidad visual por parte de los clientes y stakeholders.</p>
                       <p className="text-purple-200 ">2.-Recopila comentarios y métricas clave para evaluar el éxito de la nueva marca.</p>
                       <p className="text-purple-200 ">3.-Realiza ajustes según sea necesario para mejorar y mantener la consistencia de la identidad visual de la marca a lo largo del tiempo.</p>

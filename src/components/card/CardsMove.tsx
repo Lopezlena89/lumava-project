@@ -34,8 +34,8 @@ export const CardsMove = ({data}:Props) => {
 
   return (
     <div className='w-full h-auto flex justify-center items-center my-5'>
-        <div className='w-[87%] h-auto card rounded-xl flex flex-col items-center imagen-2'>
-            <div className='w-full h-[100px p-5'>
+        <div className='w-[87%] min-h-[450px] card rounded-xl flex flex-col items-center imagen-2'>
+            <div className='w-full h-[150px] p-5'>
                 <p className='font-semibold  bg-gradient-to-r from-purple-300 via-purple-500  to-purple-900
                                 text-transparent bg-clip-text'>{data.titulo}</p>
                 <p className='mt-3 text-4xl font-semibold text-purple-200'>{data.precio} <span className='text-sm'>mxn</span></p>

@@ -10,7 +10,7 @@ import { IoIosArrowRoundForward } from "react-icons/io";
 export default function Portfolio() {
 
   return (
-    <main className="principal w-full h-full md:pt-16 mb-10 md:mb-0 lg:h-screen overflow-hidden grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3  ">
+    <main className="principal w-full h-full md:pt-16 mb-10 lg:h-screen overflow-hidden grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3  ">
       <SvgComponent />
       <SvgComponent1/>
       {/* Objeto 1 */}
