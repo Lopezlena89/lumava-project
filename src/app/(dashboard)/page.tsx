@@ -45,7 +45,7 @@ export default function HomePage() {
                         <Image 
                             alt="ipadpro" 
                             src={"/ipadpro.webp" } 
-                            loading="lazy" 
+                            priority={true} 
                             width={700} 
                             height={700} 
                             className="imagen absolute sm:-bottom-[230px] md:-bottom-[55%] lg:-bottom-[75%] w-[1100px]  "  />
