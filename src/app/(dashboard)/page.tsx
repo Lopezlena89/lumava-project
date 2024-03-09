@@ -17,7 +17,7 @@ export default function HomePage() {
             <SvgComponent1/>
             <section className="principal w-full h-full  flex flex-col  overflow-hidden">
                 <div className="w-full h-full relative">
-                    <div className="w-full h-[500px]  flex flex-col items-center justify-center  ">
+                    <div className="w-full h-[480px]  flex flex-col items-center justify-center  ">
                         <div 
                             className="text-purple-200 font-sans font-semibold text-5xl animation-title"
                         >
@@ -41,14 +41,14 @@ export default function HomePage() {
                             Portafolio
                         </Link>
                     </div>  
-                    <div className="w-full h-[200px] md:h-[300px]  flex justify-center items-center animation-imagen relative ">
+                    <div className="w-full h-[100px] md:h-[300px]   flex justify-center items-center animation-imagen relative ">
                         <Image 
                             alt="ipadpro" 
                             src={"/ipadpro.webp" } 
                             loading="lazy" 
                             width={700} 
                             height={700} 
-                            className="imagen absolute sm:-bottom-72 md:-bottom-[55%]  "  />
+                            className="imagen absolute sm:-bottom-[230px] md:-bottom-[55%] lg:-bottom-[75%] w-[1100px]  "  />
                     </div>       
                 </div>
                 

@@ -76,12 +76,7 @@ export const Navbar = () => {
                         <CiMail  className="p-2 cursor-pointer hover:text-violet-500 hover:duration-300" size={40}/>
                     </Link>
               
-                    <button
-                        
-                    >
-                        <CiBrightnessDown size={25} className="text-purple-200  hover:text-violet-500 hover:duration-300"/>
-                        {/* <CiDark size={25} className="text-white"/> */}
-                    </button>
+                    
 
                 </div>
             </li>

@@ -30,10 +30,10 @@ export default function DesignAndBranding() {
                       </div>
                     </div>
 
-                    <div className="w-full  h-full  absolute px-5 flex flex-col justify-center rounded-lg   ">
-                      <p className="text-purple-200 text-[10px]">1.-Comienzar por comprender la empresa, su industria, su público objetivo y su competencia.</p>
-                      <p className="text-purple-200 text-[10px]">2.-Realizar análisis de mercado y tendencias para identificar oportunidades y desafíos.</p>
-                      <p className="text-purple-200 text-[10px]">3.-Conducir entrevistas con los stakeholders para comprender sus objetivos y valores.</p>
+                    <div className="w-full  h-full  absolute px-5 flex flex-col justify-center rounded-lg  text-[13px] md:text-[10px] lg:text-[13px] ">
+                      <p className="text-purple-200 ">1.-Comienzar por comprender la empresa, su industria, su público objetivo y su competencia.</p>
+                      <p className="text-purple-200 ">2.-Realizar análisis de mercado y tendencias para identificar oportunidades y desafíos.</p>
+                      <p className="text-purple-200 ">3.-Conducir entrevistas con los stakeholders para comprender sus objetivos y valores.</p>
                     </div>
                   </div>
 
@@ -49,10 +49,10 @@ export default function DesignAndBranding() {
                       </div>
                     </div>
 
-                    <div className="w-full  h-full absolute px-5 flex flex-col justify-center rounded-lg  ">
-                      <p className="text-purple-200 text-[10px]">1.-Establece la misión, visión y valores de la marca.</p>
-                      <p className="text-purple-200 text-[10px]">2.-Define la personalidad de la marca, incluyendo su tono de voz, estilo y atributos clave.</p>
-                      <p className="text-purple-200 text-[10px]">3.-Desarrolla una propuesta de valor única que diferencie a la marca de la competencia.</p>
+                    <div className="w-full  h-full absolute px-5 flex flex-col justify-center rounded-lg  text-[13px] md:text-[10px] lg:text-[13px]">
+                      <p className="text-purple-200 ">1.-Establece la misión, visión y valores de la marca.</p>
+                      <p className="text-purple-200 ">2.-Define la personalidad de la marca, incluyendo su tono de voz, estilo y atributos clave.</p>
+                      <p className="text-purple-200 ">3.-Desarrolla una propuesta de valor única que diferencie a la marca de la competencia.</p>
                     </div>
                   </div>
 
@@ -89,10 +89,10 @@ export default function DesignAndBranding() {
                       </div>
                     </div>
 
-                    <div className="w-full  h-full absolute flex px-5 flex-col justify-center rounded-lg  ">
-                      <p className="text-purple-200 text-[10px]">1.-Realiza seguimiento de la recepción de la nueva identidad visual por parte de los clientes y stakeholders.</p>
-                      <p className="text-purple-200 text-[10px]">2.-Recopila comentarios y métricas clave para evaluar el éxito de la nueva marca.</p>
-                      <p className="text-purple-200 text-[10px]">3.-Realiza ajustes según sea necesario para mejorar y mantener la consistencia de la identidad visual de la marca a lo largo del tiempo.</p>
+                    <div className="w-full  h-full absolute flex px-5 flex-col justify-center rounded-lg text-[13px] md:text-[10px] lg:text-[13px] ">
+                      <p className="text-purple-200 ">1.-Realiza seguimiento de la recepción de la nueva identidad visual por parte de los clientes y stakeholders.</p>
+                      <p className="text-purple-200 ">2.-Recopila comentarios y métricas clave para evaluar el éxito de la nueva marca.</p>
+                      <p className="text-purple-200 ">3.-Realiza ajustes según sea necesario para mejorar y mantener la consistencia de la identidad visual de la marca a lo largo del tiempo.</p>
                     </div>
                   </div>
 
@@ -108,10 +108,10 @@ export default function DesignAndBranding() {
                       </div>
                     </div>
 
-                    <div className="w-full  h-full absolute flex px-5 flex-col justify-center rounded-lg">
-                      <p className="text-purple-200 text-[0.5em]">1.-Crea un logotipo que refleje la identidad y los valores de la marca.</p>
-                      <p className="text-purple-200 text-[0.5em]">2.-Experimenta con diferentes conceptos, colores, tipografías y estilos.</p>
-                      <p className="text-purple-200 text-[0.5em]">3.-Realiza iteraciones basadas en la retroalimentación de los stakeholders.</p>
+                    <div className="w-full  h-full absolute flex px-5 flex-col justify-center rounded-lg text-[13px] md:text-[10px] lg:text-[13px]">
+                      <p className="text-purple-200 ">1.-Crea un logotipo que refleje la identidad y los valores de la marca.</p>
+                      <p className="text-purple-200 ">2.-Experimenta con diferentes conceptos, colores, tipografías y estilos.</p>
+                      <p className="text-purple-200 ">3.-Realiza iteraciones basadas en la retroalimentación de los stakeholders.</p>
                     </div>
                   </div>
 
@@ -127,9 +127,9 @@ export default function DesignAndBranding() {
                       </div>
                     </div>
 
-                    <div className="w-full  h-full absolute flex flex-col px-5 justify-center  rounded-lg ">
-                      <p className="text-purple-200 text-[10px]">1.-Aplica la nueva identidad visual a todos los puntos de contacto de la marca, incluyendo el sitio web, redes sociales, productos y embalajes.</p>
-                      <p className="text-purple-200 text-[10px]">2.-Lanza la nueva identidad visual con una campaña de comunicación integrada para generar conciencia y compromiso con la marca.</p>
+                    <div className="w-full  h-full absolute flex flex-col px-5 justify-center  rounded-lg text-[13px] md:text-[10px] lg:text-[13px]">
+                      <p className="text-purple-200 ">1.-Aplica la nueva identidad visual a todos los puntos de contacto de la marca, incluyendo el sitio web, redes sociales, productos y embalajes.</p>
+                      <p className="text-purple-200 ">2.-Lanza la nueva identidad visual con una campaña de comunicación integrada para generar conciencia y compromiso con la marca.</p>
                     </div>
                   </div>
 
@@ -145,9 +145,9 @@ export default function DesignAndBranding() {
                       </div>
                     </div>
 
-                    <div className="w-full  h-full absolute flex flex-col px-5 justify-center rounded-lg ">
-                      <p className="text-purple-200 text-[10px]">1.-Diseña materiales de marketing, como tarjetas de presentación, papelería, folletos, banners y anuncios, siguiendo las pautas de la identidad visual de la marca.</p>
-                      <p className="text-purple-200 text-[10px]">2.-Desarrolla plantillas para presentaciones, documentos y otros materiales corporativos.</p>
+                    <div className="w-full  h-full absolute flex flex-col px-5 justify-center rounded-lg text-[13px] md:text-[10px] lg:text-[13px]">
+                      <p className="text-purple-200 ">1.-Diseña materiales de marketing, como tarjetas de presentación, papelería, folletos, banners y anuncios, siguiendo las pautas de la identidad visual de la marca.</p>
+                      <p className="text-purple-200 ">2.-Desarrolla plantillas para presentaciones, documentos y otros materiales corporativos.</p>
                
                     </div>
                   </div>
@@ -164,9 +164,9 @@ export default function DesignAndBranding() {
                       </div>
                     </div>
 
-                    <div className="w-full  h-full absolute flex flex-col px-5 justify-center rounded-lg ">
-                      <p className="text-purple-200 text-[10px]">1.-Diseña elementos visuales adicionales, como paletas de colores, tipografías secundarias, patrones y gráficos complementarios.</p>
-                      <p className="text-purple-200 text-[10px]">2.-Crea una guía de estilo de marca que establezca pautas para el uso consistente de la identidad visual en todos los materiales de la marca.</p>
+                    <div className="w-full  h-full absolute flex flex-col px-5 justify-center rounded-lg text-[13px] md:text-[10px] lg:text-[13px] ">
+                      <p className="text-purple-200 ">1.-Diseña elementos visuales adicionales, como paletas de colores, tipografías secundarias, patrones y gráficos complementarios.</p>
+                      <p className="text-purple-200 ">2.-Crea una guía de estilo de marca que establezca pautas para el uso consistente de la identidad visual en todos los materiales de la marca.</p>
              
                     </div>
                   </div>

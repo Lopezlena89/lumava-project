@@ -28,10 +28,7 @@ export const NavbarMovil = () => {
           <Link href={"mailto:lumavaagency@gmail.com"}>
             <CiMail size={25} className={`text-zinc-200 hover:text-violet-500`}/>
           </Link>
-          <Link href="/">
-            <CiBrightnessDown size={25} className="text-white"/>
-            {/* <CiDark size={25} className="text-white"/> */}
-          </Link>
+          
       </div>
     </>
   )
