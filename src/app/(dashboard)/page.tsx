@@ -75,29 +75,29 @@ export default function HomePage() {
                                 text-transparent bg-clip-text" >Lumava</span>?</h3>
                             </div>
                             <div className="w-full h- text-purple-200">
-                                <p className="mt-10 text-xl">{`"Lealtad, la lealtad es de ambas partes si lo pido de ti lo recibiras de mí"`}</p>
+                                <p className="mt-10 text-xl">{`"Lealtad es de ambas partes, si lo pido de ti, lo recibirás de mí"`}</p>
                                 <p className="mt-10 text-purple-200">
-                                    Somos un equipo de profesionales, que tenemos tatuados nuestros valores, sabemos que tu negocio es muy importante, nosotros lo cuidamos y te ayudamos a crecer junto con la alta demanda que el mercado lo exige.
+                                    Somos un equipo de profesionales, que tenemos tatuados nuestros valores, sabemos que tu negocio es muy importante, nosotros lo cuidamos y te ayudamos a crecer junto con el alta demanda que el mercado lo exige.
                                 </p>
                                 <p className="mt-10 text-purple-200">
-                                    Garantizamos la comunicacion en cada proceso de tu proyecto, ademas estamos capacitandonos constantemente con las nuevas tecnologias para entregarles un servicio de calidad. 
+                                    Garantizamos la comunicación en cada proceso de tu proyecto, además estamos capacitandonos constantemente con las nuevas tecnologías para entregarles un servicio de calidad. 
                                 </p>
                             </div>
                     </div>
                 </div>
             </section>
-            <section className="w-full min-h-[400px] mt-20 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
+            <section className="w-full min-h-[400px] mt-20 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2">
                 <div className="w-full h-full flex flex-col justify-center items-center">
                     <div className="w-[80%] h-[50px] flex justify-center items-center border-b-2 opacity-85 border-solit border-purple-200">
                             <h3><Link href="/web-developmen" className="text-purple-200 text-2xl text-center hover:text-violet-500  duration-1000">Desarrollo web</Link></h3>
                     </div>
                     <div className="w-[70%] h-full text-purple-200 p-5">
                         <ul className="w-full list-disc">
-                            <li>Planificacion</li>
+                            <li>Planificación</li>
                             <li>Diseño</li>
                             <li>Desarrollo</li>
                             <li>Contenido</li>
-                            <li>Pruebas y revision</li>
+                            <li>Pruebas y revisión</li>
                             <li>Lanzamiento</li>
                             <li>Mantenimiento</li>
                         </ul>
@@ -119,7 +119,7 @@ export default function HomePage() {
                         </ul>
                     </div>
                 </div>
-                <div className="w-full h-full flex flex-col justify-start items-center">
+                {/* <div className="w-full h-full flex flex-col justify-start items-center">
                     <div className="w-[80%] h-[50px] flex justify-center items-center border-b-2 opacity-85 border-solit border-purple-200">
                             <h3><Link href="/portfolio" className="text-purple-200 text-2xl text-center hover:text-violet-500  duration-1000">Proyectos</Link></h3>
                     </div>
@@ -131,7 +131,7 @@ export default function HomePage() {
                             <li>Pure In Heart</li>
                         </ul>
                     </div>
-                </div>
+                </div> */}
             </section>
         </main>
         <section className="w-full min-h-[500px]  relative p-10">

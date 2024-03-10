@@ -31,8 +31,8 @@ export const getDataWeb =[
 export const offersWeb =[
    {
     titulo:"Landing",
-    precio:"$3500",
-    subtitulo:"Perfecto para presencia en linea",
+    precio:"$3,500",
+    subtitulo:"Perfecto para presencia en linea.",
     contenido:[
         "Diseño personalizado (no plantillas)",
         "Hosting y dominio con seguridad SSL anual",
@@ -44,33 +44,33 @@ export const offersWeb =[
    },
    {
     titulo:"Emprendedor",
-    precio:"$5500",
-    subtitulo:"Ideal para que tu pagina se destaque, futuro prometedor",
+    precio:"$5,500",
+    subtitulo:"Ideal para que tu página destaque con un futuro prometedor.",
     contenido:[
         "Diseño personalizado a la identidad de tu marca (no plantillas)",
-        "Rendimiento de pagina",
+        "Rendimiento de página",
         "Hosting y dominio con seguridad SSL anual",
-        "2 Diseños personalizados de imagenes",
-        "Hasta 3 paginas",
-        "Diseño adaptable a dispositivos moviles",
+        "2 Diseños personalizados de imágenes",
+        "Hasta 3 páginas",
+        "Diseño adaptable a dispositivos móviles",
         "Integracion de redes sociales: Enlaces a tus perfiles",
         "Asistencia y soporte tecnico  continuo sobre el sitio"
     ]
    },
    {
-    titulo:"Bussiness",
+    titulo:"E-Commerce",
     precio:"$15,000",
-    subtitulo:"Ideal para negocios establecidos con ventas a nivel nacional",
+    subtitulo:"Ideal para globalizar tus ventas, con un solo click.",
     contenido:[
         "Diseño personalizado a la identidad de tu marca (no plantillas)",
         "Rendimiento de pagina",
         "Hosting y dominio con seguridad SSL anual",
-        "8 Diseños personalizados de imagenes",
-        "Hasta 10 paginas",
+        "8 Diseños personalizados de imágenes",
+        "Hasta 10 páginas",
         "Diseño adaptable a dispositivos moviles",
         "Integracion de redes sociales: Enlaces a tus perfiles",
         "Carrito de compras",
-        "Pagina de administrador (Eliminar,Actualizar, Agregar productos)",
+        "Página de administrador (Eliminar,Actualizar, Agregar productos)",
         "Control de usuarios y pagos",
         "Asistencia y soporte tecnico  continuo sobre el sitio"
     ]

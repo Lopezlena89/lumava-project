@@ -7,25 +7,25 @@ import { Footer } from '../../../components/footer/Footer';
 export default function Offers() {
     return (
       <>
-        <main className="principal  w-full h-auto overflow-hidden">
+        <main className="principal w-full h-auto overflow-hidden">
             <SvgComponent />
             <SvgComponent1/>
-            <section className=" w-full h-auto   flex flex-col  overflow-hidden">
+            <section className=" w-full h-auto flex flex-col  overflow-hidden">
               <div className="w-full min-h-[250px]   flex flex-col items-center justify-end px-5 ">
                   <div 
                       className="text-purple-200 font-sans font-semibold animation-title"
                   >
                       <h3 className="text-center text-4xl md:text-6xl flex flex-col"> 
                               <span className="bg-gradient-to-r from-purple-200 via-purple-400  to-purple-800
-                                text-transparent bg-clip-text">Precios simples y fáciles</span>
+                                text-transparent bg-clip-text">Paquetes a tu medida </span>
                               
                       </h3>
                   </div>
                   <div 
                       className="text-purple-200 font-sans font-semibold text-lg md:text-xl mt-5 animation-title-dos"
                   >
-                      <p className="text-center">{`"Transforma tu Visión en Realidad Digital:`} </p>
-                      <p className="text-center">{` Tu Sitio Web, Tu Éxito. ¡El Futuro Online Comienza Aquí!"`}</p>
+                      <p className="text-center">{`Tu visión, nuestra creación`} </p>
+                      <p className="text-center">{`¡El Futuro Online Comienza Aquí!`}</p>
                   </div>
               </div> 
             </section>
@@ -48,7 +48,7 @@ export default function Offers() {
                 </div>
                   
             </section>
-            <section className="w-[100%]  mt-10 flex flex-col items-center ">
+            {/* <section className="w-[100%]  mt-10 flex flex-col items-center ">
                 
                 <p className="text-center text-2xl md:text-3xl bg-gradient-to-r from-purple-200 via-purple-400  to-purple-800
                                 text-transparent bg-clip-text">Paquetes Diseño & Branding </p>
@@ -66,7 +66,7 @@ export default function Offers() {
                     
                 </div>
                   
-            </section>
+            </section> */}
         </main>
         <footer className="w-full h-[100px] px-10 relative">
             <Footer/>

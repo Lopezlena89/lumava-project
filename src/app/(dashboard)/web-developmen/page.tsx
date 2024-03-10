@@ -1,5 +1,6 @@
 import SvgComponent from "@/components/svg/ImageSvg";
 import SvgComponent1 from "@/components/svg/ImageSvgG1";
+import Image from "next/image";
 import { CiCircleChevDown } from "react-icons/ci";
 
 export default function WebPage() {
@@ -14,7 +15,15 @@ export default function WebPage() {
                 <div className="w-full h-[300px] md:h-full p-2  row-span-2 col-span-2 relative order-1 md:order-none">
                   
                     <div className="w-full h-full flex flex-col card items-center justify-center  rounded-lg border border-purple-400">
-                        
+                        <Image 
+                          alt="web-develop" 
+                          src={"/web-develop-image.webp" } 
+                          loading="lazy" 
+                          width={500} 
+                          height={500} 
+                          style={{width:"auto",height:"100%"}}
+                          className="rounded-xl relative" 
+                        />
                     </div> 
 
                 </div>
@@ -31,10 +40,10 @@ export default function WebPage() {
                     </div>
 
                     <div className="w-full  h-full  absolute px-5 flex flex-col justify-center rounded-lg text-[13px] md:text-[10px] lg:text-[13px]  ">
-                      <p className="text-purple-200 ">1.-Define el propósito y los objetivos de la página web.</p>
-                      <p className="text-purple-200 ">2.-Identifica a tu audiencia objetivo y sus necesidades.</p>
-                      <p className="text-purple-200 ">3.-Realiza una investigación de mercado y análisis de la competencia.</p>
-                      <p className="text-purple-200 ">4.-Elabora un plan de proyecto que incluya presupuesto, cronograma y recursos necesarios.</p>
+                      <p className="text-purple-200 ">1.-Defininir el propósito y los objetivos de la página web.</p>
+                      <p className="text-purple-200 ">2.-Identificar a tu audiencia objetivo y sus necesidades.</p>
+                      <p className="text-purple-200 ">3.-Realizar una investigación de mercado y análisis de la competencia.</p>
+                      <p className="text-purple-200 ">4.-Elaborar un plan de proyecto que incluya presupuesto, cronograma y recursos necesarios.</p>
                     </div>
                   </div>
 
@@ -51,9 +60,9 @@ export default function WebPage() {
                     </div>
 
                     <div className="w-full  h-full absolute px-5 flex flex-col justify-center rounded-lg text-[12px] md:text-[13px] lg:text-md ">
-                      <p className="text-purple-200 ">1.-Crea un esquema o wireframe de la página para visualizar la estructura y disposición de los elementos.</p>
-                      <p className="text-purple-200 ">2.-Diseña el aspecto visual de la página web, incluyendo el diseño de la interfaz de usuario (UI) y la experiencia del usuario (UX).</p>
-                      <p className="text-purple-200 ">3.-Desarrolla un diseño responsivo que se adapte a diferentes dispositivos y tamaños de pantalla.</p>
+                      <p className="text-purple-200 ">1.-Crear un esquema de la página para visualizar la estructura y disposición de los elementos.</p>
+                      <p className="text-purple-200 ">2.-Diseñar el aspecto visual de la página web, incluyendo el diseño de la interfaz de usuario (UI) y la experiencia del usuario (UX).</p>
+                      <p className="text-purple-200 ">3.-Desarrollar un diseño responsivo que se adapte a diferentes dispositivos y tamaños de pantalla.</p>
                     </div>
                   </div>
 
@@ -66,15 +75,15 @@ export default function WebPage() {
                         >
                             <h3 className="text-center text-4xl flex flex-col"> 
                                     <span className="bg-gradient-to-r from-purple-200 via-purple-400  to-purple-800
-                                      text-transparent bg-clip-text">Desarrollo de tu pagina web</span>
+                                      text-transparent bg-clip-text">Desarrollo de tu página web</span>
                                     
                             </h3>
                         </div>
                         <div 
                             className="text-purple-200 font-sans font-semibold text-sm  mt-5 animation-title-dos"
                         >
-                            <p className="text-center">{`"Transforma tu Visión en Realidad Digital:`} </p>
-                            <p className="text-center">{` Tu Sitio Web, Tu Éxito. ¡El Futuro Online Comienza Aquí!"`}</p>
+                            <p className="text-center">{`Tu visión, nuestra creación:`} </p>
+                            <p className="text-center">{`¡El Futuro Online Comienza Aquí!`}</p>
                         </div>
                     </div> 
                   
@@ -91,9 +100,9 @@ export default function WebPage() {
                     </div>
 
                     <div className="w-full  h-full absolute flex px-5 flex-col justify-center rounded-lg  text-[12px] lg:text-[13px]">
-                      <p className="text-purple-200 ">1.-Realiza copias de seguridad periódicas del sitio web y su base de datos.</p>
-                      <p className="text-purple-200 ">2.-Monitorea el rendimiento y la seguridad del sitio web, aplicando actualizaciones y parches según sea necesario.</p>
-                      <p className="text-purple-200 ">3.-Agrega nuevo contenido y funcionalidades según evolucionen las necesidades del negocio o la audiencia.</p>
+                      <p className="text-purple-200 ">1.-Realizar copias de seguridad periódicas del sitio web y su base de datos.</p>
+                      <p className="text-purple-200 ">2.-Monitorear el rendimiento y la seguridad del sitio web, aplicando actualizaciones y parches según sea necesario.</p>
+                      <p className="text-purple-200 ">3.-Agregar nuevo contenido y funcionalidades según evolucionen las necesidades del negocio o la audiencia.</p>
                     </div>
                   </div>
 
@@ -109,11 +118,11 @@ export default function WebPage() {
                       </div>
                     </div>
 
-                    <div className="w-full  h-full absolute flex px-5 flex-col justify-center rounded-lg text-[10px] md:text-[0.5em]">
-                      <p className="text-purple-200 ">1.-Elige la tecnología y las herramientas adecuadas para el desarrollo web (por ejemplo, HTML, CSS, JavaScript, etc.).</p>
-                      <p className="text-purple-200 ">2.-Codifica la página web según los diseños y especificaciones previamente establecidos.</p>
-                      <p className="text-purple-200 ">3.-Implementa funcionalidades interactivas y dinámicas, como formularios de contacto, carritos de compra, etc.</p>
-                      <p className="text-purple-200 ">4.-Realiza pruebas de compatibilidad para garantizar que la página se vea bien y funcione correctamente en diferentes navegadores y dispositivos.</p>
+                    <div className="w-full  h-full absolute flex px-5 flex-col justify-center rounded-lg text-[12px] md:text-[0.7em]">
+                      <p className="text-purple-200 ">1.-Eliger la tecnología y las herramientas adecuadas para el desarrollo web.</p>
+                      <p className="text-purple-200 ">2.-Codificar la página web según los diseños y especificaciones previamente establecidos.</p>
+                      <p className="text-purple-200 ">3.-Implementar funcionalidades interactivas y dinámicas, como formularios de contacto, carritos de compra, etc.</p>
+                      <p className="text-purple-200 ">4.-Realizar pruebas de compatibilidad para garantizar que la página se vea bien y funcione correctamente.</p>
                     </div>
                   </div>
 
@@ -130,9 +139,9 @@ export default function WebPage() {
                     </div>
 
                     <div className="w-full  h-full absolute flex flex-col px-5 justify-center  rounded-lg text-[13px] md:text-[10px] lg:text-[13px]">
-                      <p className="text-purple-200 ">1.-Prepara el servidor y configura el dominio para alojar la página web.</p>
-                      <p className="text-purple-200 ">2.-Sube todos los archivos y contenido al servidor.</p>
-                      <p className="text-purple-200 ">3.-Realiza pruebas finales para asegurarte de que todo funcione correctamente en el entorno de producción.</p>
+                      <p className="text-purple-200 ">1.-Preparar el servidor y configurar el dominio para alojar la página web.</p>
+                      <p className="text-purple-200 ">2.-Subir todos los archivos y contenidos al servidor.</p>
+                      <p className="text-purple-200 ">3.-Realizar pruebas finales para asegurarte de que todo funcione correctamente en el entorno de producción.</p>
                       
                     </div>
                   </div>
@@ -150,8 +159,8 @@ export default function WebPage() {
                     </div>
 
                     <div className="w-full  h-full absolute flex flex-col px-5 justify-center rounded-lg text-[13px] md:text-[10px] lg:text-[13px]">
-                      <p className="text-purple-200 ">1.-Realiza pruebas exhaustivas para identificar y corregir errores de funcionalidad y diseño.</p>
-                      <p className="text-purple-200 ">2.-Solicita retroalimentación de usuarios beta si es posible y realiza ajustes según sea necesario.</p>
+                      <p className="text-purple-200 ">1.-Realizar pruebas exhaustivas para identificar y corregir errores de funcionalidad y diseño.</p>
+                      <p className="text-purple-200 ">2.-Solicitar retroalimentación de usuarios beta si es posible y realiza ajustes según sea necesario.</p>
                
                     </div>
                   </div>
@@ -169,8 +178,8 @@ export default function WebPage() {
                     </div>
 
                     <div className="w-full  h-full absolute flex flex-col px-5 justify-center rounded-lg text-[13px] md:text-[10px] lg:text-[13px]">
-                      <p className="text-purple-200 ">1.-Crea o recopila el contenido que se mostrará en la página web, como texto, imágenes, videos, etc.</p>
-                      <p className="text-purple-200 ">2.-Optimiza el contenido para SEO (Search Engine Optimization) para mejorar la visibilidad en los motores de búsqueda.</p>
+                      <p className="text-purple-200 ">1.-Crear o recopilar el contenido que se mostrará en la página web, como texto, imágenes, videos, etc.</p>
+                      <p className="text-purple-200 ">2.-Optimizar el contenido para SEO (Search Engine Optimization) para mejorar la visibilidad en los motores de búsqueda.</p>
              
                     </div>
                   </div>

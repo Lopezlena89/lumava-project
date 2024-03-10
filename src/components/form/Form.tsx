@@ -40,7 +40,7 @@ export const Form = () => {
     <>
         <div className='w-full h-full flex flex-col border   border-gray-800 bg-gradient-to-r from-black to-gray-950 rounded-xl p-5'>
           <div className='w-full min-h-[100px] flex flex-col'>
-            <h2 className='text-purple-200 text-4xl'>Contactanos</h2>
+            <h2 className='text-purple-200 text-4xl'>Contáctanos</h2>
             <span className='text-purple-500 text-xl mt-2'>Cuentanos como podemos ayudarte</span>
           </div>
           <form onSubmit={handleSubmit(onSubmit)}  className='w-full h-full grid grid-cols-1  md:grid-cols-2' >
@@ -96,7 +96,7 @@ export const Form = () => {
               />
             </div>
             <div className='w-full h-[110px]  flex flex-col'>
-              <span className='text-purple-200 text-2xl'>Telefono</span>
+              <span className='text-purple-200 text-2xl'>Teléfono</span>
               <input 
                 type="tel"
                 className={`mt-5 outline-none text-left md:w-[80%] font-medium  h-[35px] rounded-sm p-2 ${errors.phone?'bg-red-300':'bg-purple-100'}`}
@@ -104,7 +104,7 @@ export const Form = () => {
                 name='phone'
               />
               {
-              errors.phone && <span className='text-red-300'>El telefono es requerido</span>
+              errors.phone && <span className='text-red-300'>El teléfono es requerido</span>
              }
             </div>
             <div className='w-full h-auto flex flex-col md:col-span-2'>
