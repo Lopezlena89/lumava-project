@@ -30,7 +30,7 @@ export default function HomePage() {
                         <div 
                             className="text-purple-200 font-sans font-semibold text-xl mt-5 animation-title-dos"
                         >
-                            <p className="text-center">Empodérate con nuestros servicios exclusivos </p>
+                            <p className="text-center">Empodérate con nuestros servicios </p>
                             <p className="text-center"> y convierte tus deseos en adquisiciones</p>
                         </div>
                         <Link 
