@@ -1,12 +1,9 @@
-
-
 import SvgComponent from "@/components/svg/ImageSvg";
 import SvgComponent1 from "@/components/svg/ImageSvgG1";
 import Image from "next/image";
 import Link from "next/link";
-
-
 import { IoIosArrowRoundForward } from "react-icons/io";
+
 export default function Portfolio() {
 
   return (
@@ -65,34 +62,31 @@ export default function Portfolio() {
             </Link>
           </div>
         </div>
+        
         <div className="w-full h-[350px] p-1  rounded-lg border border-gray-800  from-black to-gray-950 ">
           <div className="w-full h-[87%] p-1 rounded-lg ">
-            <Image
-              src={"/lumava_dev.webp"}
-              width={500}
-              height={500}
-              priority={true}
-              alt="lumava"
-              className="first rounded-lg w-full h-[100%] "
-            />
-           
+          <Image
+            src={"/smart-nutrition.webp"}
+            width={500}
+            height={500}
+            alt="Street Smart Nutrition"
+            className="rounded-lg w-full h-[100%]"
+          />
           </div>
           <div className="w-full h-[13%] pt-1  ">
             <Link
-              href={'https://lumava.dev'}
-              className="w-full h-full pt-1 rounded-lg "
+              href={'https://thriving-cactus-97f706.netlify.app/'}
+           
+              className="w-full h-full pt-1 rounded-lg   "
               target="_black"
             >
-              <div className="w-full card h-full rounded-lg flex justify-center items-center  ">
+              <div className="w-full h-full card rounded-lg flex justify-center items-center  ">
                 <span className="font-medium text-purple-200">Go to project</span>
                 <IoIosArrowRoundForward className='ml-2 text-purple-200' />
               </div>
             </Link>
           </div>
         </div>
-        
-
-
       </section>
       {/* Objeto 2 */}
       <section className="w-full h-full rounded-lg flex flex-col relative">
@@ -176,24 +170,26 @@ export default function Portfolio() {
       </section>
       {/* Objeto 3 */}
       <section className="w-full h-full rounded-lg flex flex-col relative ">
+        
         <div className="w-full h-[350px] p-1  rounded-lg border border-gray-800  from-black to-gray-950 ">
           <div className="w-full h-[87%] p-1 rounded-lg ">
-          <Image
-            src={"/smart-nutrition.webp"}
-            width={500}
-            height={500}
-            alt="Street Smart Nutrition"
-            className="rounded-lg w-full h-[100%]"
-          />
+            <Image
+              src={"/lumava_dev.webp"}
+              width={500}
+              height={500}
+              priority={true}
+              alt="lumava"
+              className="first rounded-lg w-full h-[100%] "
+            />
+           
           </div>
           <div className="w-full h-[13%] pt-1  ">
             <Link
-              href={'https://thriving-cactus-97f706.netlify.app/'}
-           
-              className="w-full h-full pt-1 rounded-lg   "
+              href={'https://lumava.dev'}
+              className="w-full h-full pt-1 rounded-lg "
               target="_black"
             >
-              <div className="w-full h-full card rounded-lg flex justify-center items-center  ">
+              <div className="w-full card h-full rounded-lg flex justify-center items-center  ">
                 <span className="font-medium text-purple-200">Go to project</span>
                 <IoIosArrowRoundForward className='ml-2 text-purple-200' />
               </div>
