@@ -1,6 +1,7 @@
 import SvgComponent from "@/components/svg/ImageSvg";
 import SvgComponent1 from "@/components/svg/ImageSvgG1";
 import Image from "next/image";
+import Link from "next/link";
 import { CiCircleChevDown } from "react-icons/ci";
 
 export default function WebPage() {
@@ -80,10 +81,15 @@ export default function WebPage() {
                             </h3>
                         </div>
                         <div 
-                            className="text-purple-200 font-sans font-semibold text-sm  mt-5 animation-title-dos"
+                            className="text-purple-200 font-sans font-semibold text-sm mt-5 animation-title-dos flex flex-col items-center"
                         >
                             <p className="text-center">{`Tu visión, nuestra creación:`} </p>
                             <p className="text-center">{`¡El Futuro Online Comienza Aquí!`}</p>
+                            <Link href="https://wa.me/523315753378" className="mt-5">
+                                <button className="w-[100px] h-[40px] border border-solid border-purple-400 hover:border-violet-500 duration-700 rounded-2xl  text-purple-200 z-20 ">
+                                    Contáctanos
+                                </button>
+                            </Link>
                         </div>
                     </div> 
                   

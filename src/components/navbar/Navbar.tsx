@@ -2,10 +2,8 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
-
-
-
-import { CiBrightnessDown,CiInstagram,CiMail,CiMenuBurger } from 'react-icons/ci'
+import { CiInstagram,CiMail } from 'react-icons/ci'
+import { PiWhatsappLogoThin } from 'react-icons/pi'
 
 
 export const Navbar = () => {
@@ -49,12 +47,12 @@ export const Navbar = () => {
                     Desarrollo Web
                 </Link>
                 
-                <Link
+                {/* <Link
                     className={`pr-3 hover:text-violet-500 hover:duration-300 ${path==="/design-and-branding" ?"text-violet-500 " :""}`}
                     href='/design-and-branding'
                 >
                     Diseño & Branding
-                </Link>
+                </Link> */}
                 
                 <Link
                 className={`hover:text-violet-500 hover:duration-300 ${path==="/offers" ?"text-violet-500 " :""}`}
@@ -74,6 +72,9 @@ export const Navbar = () => {
                         href='mailto:lumavaagency@gmail.com'
                     >
                         <CiMail  className="p-2 cursor-pointer hover:text-violet-500 hover:duration-300" size={40}/>
+                    </Link>
+                    <Link href="https://wa.me/523315753378"  >
+                        <PiWhatsappLogoThin className='p-2 cursor-pointer hover:text-violet-500 hover:duration-300' size={40}/>
                     </Link>
               
                     
