@@ -3,6 +3,7 @@ import { Resend } from 'resend';
 import * as React from 'react';
 import EmailTemplate from '@/components/form/EmailTemplate';
 
+ 
 
 
 const resend = new Resend(process.env.RESEND_API_KEY);
