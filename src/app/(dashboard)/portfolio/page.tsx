@@ -11,8 +11,8 @@ export default function Portfolio() {
       <SvgComponent />
       <SvgComponent1/>
       {/* Objeto 1 */}
-      <section className="w-full h-full rounded-lg   flex flex-col relative ">
-        <div className="w-full h-[350px]  p-1 rounded-lg border border-gray-800  from-black to-gray-950  ">
+      <section className="w-full h-full rounded-lg flex flex-col relative p-1">
+        <div className="w-full h-[350px]  p-1 rounded-lg border border-gray-800  from-black to-gray-950 my-1">
           <div className="w-full h-[87%] p-1 rounded-lg ">
             <Image
               src={"/yoga.webp"}
@@ -37,7 +37,7 @@ export default function Portfolio() {
             </Link>
           </div>
         </div>
-        <div className="w-full h-[350px] p-1  rounded-lg border border-gray-800  from-black to-gray-950 ">
+        <div className="w-full h-[350px] p-1  rounded-lg border border-gray-800  from-black to-gray-950 my-1">
           <div className="w-full h-[87%] p-1 rounded-lg ">
             <Image
               src={"/meme-shop.webp"}
@@ -63,7 +63,7 @@ export default function Portfolio() {
           </div>
         </div>
         
-        <div className="w-full h-[350px] p-1  rounded-lg border border-gray-800  from-black to-gray-950 ">
+        <div className="w-full h-[350px] p-1  rounded-lg border border-gray-800  from-black to-gray-950  my-1">
           <div className="w-full h-[87%] p-1 rounded-lg ">
           <Image
             src={"/smart-nutrition.webp"}
@@ -89,8 +89,8 @@ export default function Portfolio() {
         </div>
       </section>
       {/* Objeto 2 */}
-      <section className="w-full h-full rounded-lg flex flex-col relative">
-        <div className="w-full h-[300px] p-1  rounded-lg border border-gray-800  from-black to-gray-950 ">
+      <section className="w-full h-full rounded-lg flex flex-col relative p-1">
+        <div className="w-full h-[300px] p-1  rounded-lg border border-gray-800  from-black to-gray-950 my-1">
           <div className="w-full h-[87%] p-1 rounded-lg ">
             
             <Image
@@ -115,7 +115,7 @@ export default function Portfolio() {
             </Link>
           </div>
         </div>
-        <div className="w-full h-[300px] p-1  rounded-lg border border-gray-800  from-black to-gray-950 ">
+        <div className="w-full h-[300px] p-1  rounded-lg border border-gray-800  from-black to-gray-950 my-1">
           <div className="w-full h-[87%] p-1 rounded-lg ">
             
             <Image
@@ -140,7 +140,7 @@ export default function Portfolio() {
             </Link>
           </div>
         </div>
-        <div className="w-full h-[300px] p-1  rounded-lg border border-gray-800  from-black to-gray-950 ">
+        <div className="w-full h-[300px] p-1  rounded-lg border border-gray-800  from-black to-gray-950 my-1">
           <div className="w-full h-[87%] p-1 rounded-lg">
             <Image
               src={"/calendar.webp"}
@@ -169,9 +169,9 @@ export default function Portfolio() {
 
       </section>
       {/* Objeto 3 */}
-      <section className="w-full h-full rounded-lg flex flex-col relative ">
+      <section className="w-full h-full rounded-lg flex flex-col relative p-1">
         
-        <div className="w-full h-[350px] p-1  rounded-lg border border-gray-800  from-black to-gray-950 ">
+        <div className="w-full h-[350px] p-1  rounded-lg border border-gray-800  from-black to-gray-950 my-1">
           <div className="w-full h-[87%] p-1 rounded-lg ">
             <Image
               src={"/lumava_dev.webp"}
@@ -196,7 +196,7 @@ export default function Portfolio() {
             </Link>
           </div>
         </div>
-        <div className="w-full h-[350px] p-1  rounded-lg border border-gray-800  from-black to-gray-950  ">
+        <div className="w-full h-[350px] p-1  rounded-lg border border-gray-800  from-black to-gray-950  my-1">
           <div className="w-full h-[87%] p-1 rounded-lg ">
           <Image
             src={"/questions-ai.webp"}
