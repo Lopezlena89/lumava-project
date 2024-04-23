@@ -48,11 +48,7 @@ export default function Offers() {
                 </div>
                   
             </section>
-            <section className="w-[100%]  mt-10 flex flex-col items-center  ">
-                
-               
-                  
-            </section>
+           
         </main>
         <footer className="w-full h-[100px] px-10 relative">
             <Footer/>

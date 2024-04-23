@@ -47,12 +47,12 @@ export const Navbar = () => {
                     Desarrollo Web
                 </Link>
                 
-                {/* <Link
-                    className={`pr-3 hover:text-violet-500 hover:duration-300 ${path==="/design-and-branding" ?"text-violet-500 " :""}`}
-                    href='/design-and-branding'
+                <Link
+                    className={`pr-3 hover:text-violet-500 hover:duration-300 ${path==="/blog" ?"text-violet-500 " :""}`}
+                    href='/blog'
                 >
-                    Diseño & Branding
-                </Link> */}
+                    Blog
+                </Link>
                 
                 <Link
                 className={`hover:text-violet-500 hover:duration-300 ${path==="/offers" ?"text-violet-500 " :""}`}

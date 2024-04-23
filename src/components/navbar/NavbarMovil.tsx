@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { CiBrightnessDown,CiDark,CiViewList,CiGrid42,CiHome,CiMail,CiDesktop,CiPen  } from "react-icons/ci";
+import { CiBrightnessDown,CiDark,CiViewList,CiGrid42,CiHome,CiBadgeDollar,CiDesktop  } from "react-icons/ci";
 import { PiWhatsappLogoThin } from "react-icons/pi";
 
 
@@ -20,11 +20,11 @@ export const NavbarMovil = () => {
           <Link href="/web-developmen">
             <CiDesktop size={25} className={` ${path === "/web-developmen"?"text-violet-500":"text-zinc-200"}`}/>
           </Link>
-          {/* <Link href="/design-and-branding">
-            <CiPen size={25} className={` ${path === "/design-and-branding"?"text-violet-500":"text-zinc-200"}`}/>
-          </Link> */}
+          <Link href="/blog">
+            <CiViewList size={25} className={` ${path === "/blog"?"text-violet-500":"text-zinc-200"}`}/>
+          </Link>
           <Link href="/offers">
-            <CiViewList size={25} className={` ${path === "/offers"?"text-violet-500":"text-zinc-200"}`}/>
+            <CiBadgeDollar size={25} className={` ${path === "/offers"?"text-violet-500":"text-zinc-200"}`}/>
           </Link>
           <Link href="https://wa.me/523315753378" >
             <PiWhatsappLogoThin size={25} className={`text-zinc-200 hover:text-violet-500`}/>
