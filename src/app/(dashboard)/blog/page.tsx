@@ -1,5 +1,6 @@
 import SvgComponent from "@/components/svg/ImageSvg"
 import SvgComponent1 from "@/components/svg/ImageSvgG1"
+import Image from "next/image"
 
 
 export default function  Blog (){
@@ -9,8 +10,8 @@ export default function  Blog (){
             <SvgComponent />
             <SvgComponent1/>
             <div className="w-full h-screen flex flex-col justify-center items-center">
-                <p className="text-sm text-purple-200">Estamos actualizando esta seccion</p>
-                <p className="text-sm text-purple-200">Esperela pronto</p>
+                <p className="text-sm text-purple-200">Estamos actualizando esta sección</p>
+                <p className="text-sm text-purple-200">Espérelo pronto</p>
             </div>
         </main>
     </>
