@@ -1,7 +1,7 @@
 import { CardsMove } from "@/components/card/CardsMove";
 import SvgComponent from "@/components/svg/ImageSvg";
 import SvgComponent1 from "@/components/svg/ImageSvgG1";
-import { offersDesign, offersWeb } from "@/utils/text/data";
+import {  offersWeb } from "@/utils/text/data";
 import { Footer } from '../../../components/footer/Footer';
 
 export default function Offers() {
@@ -48,25 +48,11 @@ export default function Offers() {
                 </div>
                   
             </section>
-            {/* <section className="w-[100%]  mt-10 flex flex-col items-center ">
+            <section className="w-[100%]  mt-10 flex flex-col items-center  ">
                 
-                <p className="text-center text-2xl md:text-3xl bg-gradient-to-r from-purple-200 via-purple-400  to-purple-800
-                                text-transparent bg-clip-text">Paquetes Diseño & Branding </p>
-
-                <div className="w-full min-h-[450px] grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
-                    {
-                      offersDesign.map((data,index)=>(
-                        
-                        <div key={`${data}-${index}`}>
-                          <CardsMove  data={data}/>
-                        </div>
-                        
-                      ))
-                    }
-                    
-                </div>
+               
                   
-            </section> */}
+            </section>
         </main>
         <footer className="w-full h-[100px] px-10 relative">
             <Footer/>
