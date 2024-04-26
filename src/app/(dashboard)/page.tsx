@@ -12,7 +12,6 @@ export default function HomePage() {
   return (
     <>
         <main className="overflow-hidden">
-               
             <SvgComponent />
             <SvgComponent1/>
             <section className="principal w-full h-full  flex flex-col  overflow-hidden">
@@ -54,12 +53,12 @@ export default function HomePage() {
                 
             </section>
             <section
-                className="w-full h-auto bg-black flex flex-col z-10 "   
+                className="w-full h-auto flex flex-col  "   
             >
                 <CardGrid/>
             </section>
-            <section className="w-full h-auto mt-16 p-5  " >
-                <div className="w-full h-full  flex flex-col  md:flex-row rounded-xl border border-gray-800 bg-gradient-to-r from-black to-gray-950">
+            <section className="w-full h-auto mt-16 p-5 " >
+                <div className="w-full h-full flex flex-col   md:flex-row rounded-xl border border-gray-800 bg-gradient-to-r from-black to-gray-950">
                     <Image
                         alt="data-image" 
                         src={"/data.webp" } 
@@ -69,7 +68,7 @@ export default function HomePage() {
                         style={{width:"auto",height:"auto"}}
                         className="rounded-xl relative" 
                     />
-                    <div className="w-full h-full flex flex-col p-10 ">
+                    <div className="w-full max-h-full flex flex-col p-10 z-10 bg-black rounded-xl">
                             <div className="w-full h-[50px] mt-5 flex justify-center items-center text-center">
                                 <h3 className="text-purple-200 text-4xl ">¿Porque elegir a <span className="bg-gradient-to-r from-white via-purple-400  to-blue-400
                                 text-transparent bg-clip-text" >Lumava</span>?</h3>
@@ -119,19 +118,7 @@ export default function HomePage() {
                         </ul>
                     </div>
                 </div>
-                {/* <div className="w-full h-full flex flex-col justify-start items-center">
-                    <div className="w-[80%] h-[50px] flex justify-center items-center border-b-2 opacity-85 border-solit border-purple-200">
-                            <h3><Link href="/portfolio" className="text-purple-200 text-2xl text-center hover:text-violet-500  duration-1000">Proyectos</Link></h3>
-                    </div>
-                    <div className="w-[70%] h-full text-purple-200 p-5">
-                        <ul className="w-full list-disc">
-                            <li>Meme Shop</li>
-                            <li>Yoga Page</li>
-                            <li>Street Smart Nutrition</li>
-                            <li>Pure In Heart</li>
-                        </ul>
-                    </div>
-                </div> */}
+                
             </section>
         </main>
         <section className="w-full min-h-[500px]  relative p-10">
