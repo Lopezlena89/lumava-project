@@ -124,9 +124,7 @@ export default function HomePage() {
         <section className="w-full min-h-[500px]  relative p-10">
             <Form/>
         </section>
-        <footer className="w-full h-[100px] px-10 relative">
-            <Footer/>
-        </footer>
+        <Footer/>
     </>
   );
 }

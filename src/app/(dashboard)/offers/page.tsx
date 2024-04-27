@@ -50,9 +50,7 @@ export default function Offers() {
             </section>
            
         </main>
-        <footer className="w-full h-[100px] px-10 relative">
-            <Footer/>
-        </footer>
+        <Footer/>
       </>
     )
   }
