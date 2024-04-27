@@ -14,7 +14,7 @@ export const Navbar = () => {
     <>
         <nav 
             className="z-20 w-full h-16 hidden fixed md:flex justify-between items-center list-none 
-            font-sans backdrop-blur-sm bg-black/70 px-10"
+             bg-black/90 px-10 border-b-[0.1px] border-gray-800"
         >
            
             <Link href="/" className="flex justify-center items-center">

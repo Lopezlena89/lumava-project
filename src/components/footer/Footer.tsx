@@ -3,7 +3,7 @@ import Link from 'next/link'
 export const Footer = () => {
   return (
    <>
-    <div className='w-full h-full flex justify-between items-center pb-10 md:pb-0'>
+    <div className='w-full h-[100px] flex justify-between items-center pb-10 md:pb-0 px-10'>
       <Link href={"mailto:lumavaagency@gmail.com"}>
           <h3 className={` text-sm font-light text-purple-200 `} >Lumava <span className="opacity-0 sm:opacity-100">-</span> Agency</h3>
       </Link>

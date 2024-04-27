@@ -5,7 +5,7 @@ const SvgComponent1 = () => (
     width={1074}
     height={1101}
     fill="none"
-    className="fixed z-0"
+    className="fixed "
   >
     <g strokeMiterlimit={10} opacity={0.2}>
       <path
