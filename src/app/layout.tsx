@@ -11,6 +11,13 @@ export const metadata: Metadata = {
   abstract:'Page Lumava Agency',
   category:'Web services',
   keywords:["lumava","web design","diseño web","desarrollo apps"],
+  metadataBase:new URL("https://lumava.site"),
+  alternates:{
+    canonical: '/',
+    languages: {
+      'es-MX': '/es-MX',
+    },
+  },
   openGraph: {
     title: 'Lumava Agency',
     description: 'Lumava es una Agencia de Desarrollo Web y diseño, establecidos en Guadalajara, nos enfocamos en impulsar a nuevos emprendedores',
@@ -25,7 +32,7 @@ export const metadata: Metadata = {
       },
       
     ],
-    locale: 'es_ES',
+    locale: 'es_MX',
     type: 'website'
   },
 };

@@ -3,8 +3,7 @@ import { Footer } from "@/components/footer/Footer";
 import SvgComponent from "@/components/svg/ImageSvg";
 import SvgComponent1 from "@/components/svg/ImageSvgG1";
 import { blogData } from "@/utils/text/blog";
-import Image from "next/image";
-import Link from "next/link";
+
 
 
 
