@@ -9,7 +9,6 @@ import { PiWhatsappLogoThin } from 'react-icons/pi'
 export const Navbar = () => {
     const path = usePathname()
     
-   
   return (
     <>
         <nav 
@@ -18,12 +17,14 @@ export const Navbar = () => {
         >
            
             <Link href="/" className="flex justify-center items-center">
+                <h2 className='font-poppins text-purple-200 text-2xl pr-3'>Lumava</h2>
                 <Image
-                    src="/logo01.webp"
-                    width={130}
-                    height={130}
-                    alt="Lumava Agency"
+                    src="/cloud.svg"
+                    width={40}
+                    height={40}
+                    alt="cloud"
                 />
+                
             </Link>
             <li className="hidden md:flex items-center justify-evenly lg:justify-end md:text-[13px] lg:text-base w-[88%] text-purple-200">
                 <Link

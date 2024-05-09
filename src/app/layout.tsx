@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     siteName: 'Lumava Agency',
     images: [
       {
-        url: '/logo01.webp', // Must be an absolute URL
+        url: '/logo_lumava_max.webp', // Must be an absolute URL
         width: 800,
         height: 600,
         alt:"Lumava Agency"
