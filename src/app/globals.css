@@ -14,7 +14,7 @@
 }
 
 .principal{  
-  background-color:rgb(119,39,129,0.1);
+  background-color:rgb(27,70,140,0.3);
   background-image: radial-gradient(circle, rgba(60,50,129,0.598433123249299) -50%, rgba(0,0,0,1) 100%);
 }
 .button-blog{
@@ -42,7 +42,7 @@
 }
 .imagen{
   filter:drop-shadow(
-    0 0 50px rgba(88, 3, 128, 0.8)
+    0 0 50px rgb(27,70,140,0.5)
   );
   transition:all 1s ;
 }

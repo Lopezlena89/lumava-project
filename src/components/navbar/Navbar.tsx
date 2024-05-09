@@ -16,8 +16,8 @@ export const Navbar = () => {
              bg-black/90 px-10 border-b-[0.1px] border-gray-800"
         >
            
-            <Link href="/" className="flex justify-center items-center">
-                <h2 className='font-poppins text-purple-200 text-2xl pr-3'>Lumava</h2>
+            <Link href="/" className="flex justify-center items-center ">
+                <h2 className='font-poppins text-violet-200 text-2xl hover:duration-300 hover:text-violet-400 pr-3'>Lumava</h2>
                 <Image
                     src="/cloud.svg"
                     width={40}
@@ -26,37 +26,37 @@ export const Navbar = () => {
                 />
                 
             </Link>
-            <li className="hidden md:flex items-center justify-evenly lg:justify-end md:text-[13px] lg:text-base w-[88%] text-purple-200">
+            <li className="hidden md:flex items-center justify-evenly lg:justify-end md:text-[13px] lg:text-base w-[88%] text-violet-200">
                 <Link
-                    className={`pr-3 hover:text-violet-500 hover:duration-300 ${path==="/" ?"text-violet-500 " :""}`}
+                    className={`pr-3  hover:text-violet-400 hover:duration-300 ${path==="/" ?"text-violet-400" :""}`}
                     href='/'
                 >
                     Nosotros
                 </Link>
                 
                 <Link
-                    className={`pr-3 hover:text-violet-500 hover:duration-300 ${path==="/portfolio" ?"text-violet-500 " :""}`}
+                    className={`pr-3  hover:text-violet-400 hover:duration-300 ${path==="/portfolio" ?"text-violet-400 " :""}`}
                     href='/portfolio'
                 >
                     Portafolio
                 </Link>
                 
                 <Link
-                    className={`pr-3 hover:text-violet-500 hover:duration-300 ${path==="/web-developmen" ?"text-violet-500 " :""}`}
+                    className={`pr-3  hover:text-violet-400 hover:duration-300 ${path==="/web-developmen" ?"text-violet-400 " :""}`}
                     href='/web-developmen'
                 >
                     Desarrollo Web
                 </Link>
                 
                 <Link
-                    className={`pr-3 hover:text-violet-500 hover:duration-300 ${path==="/blog" ?"text-violet-500 " :""}`}
+                    className={`pr-3  hover:text-violet-400 hover:duration-300 ${path==="/blog" ?"text-violet-400 " :""}`}
                     href='/blog'
                 >
                     Blog
                 </Link>
                 
                 <Link
-                className={`hover:text-violet-500 hover:duration-300 ${path==="/offers" ?"text-violet-500 " :""}`}
+                className={` hover:text-violet-400 hover:duration-300 ${path==="/offers" ?"text-violet-400 " :""}`}
                     href='/offers'
                 >
                     Paquetes
@@ -66,16 +66,16 @@ export const Navbar = () => {
                     <Link
                         href='https://www.instagram.com/lumava_agency/'
                     >
-                        <CiInstagram  className="p-2 cursor-pointer hover:text-violet-500 hover:duration-300" size={40}/>
+                        <CiInstagram  className="p-2 cursor-pointer hover:text-violet-400 hover:duration-300" size={40}/>
                     </Link>
 
                     <Link
                         href='mailto:lumavaagency@gmail.com'
                     >
-                        <CiMail  className="p-2 cursor-pointer hover:text-violet-500 hover:duration-300" size={40}/>
+                        <CiMail  className="p-2 cursor-pointer hover:text-violet-400 hover:duration-300" size={40}/>
                     </Link>
                     <Link href="https://wa.me/523315753378"  >
-                        <PiWhatsappLogoThin className='p-2 cursor-pointer hover:text-violet-500 hover:duration-300' size={40}/>
+                        <PiWhatsappLogoThin className='p-2 cursor-pointer hover:text-violet-400 hover:duration-300' size={40}/>
                     </Link>
               
                     

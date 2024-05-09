@@ -22,7 +22,7 @@ export default function HomePage() {
                         >
                             <h1 className="text-center text-5xl md:text-7xl flex flex-col"> 
                                     <span >Bienvenidos a</span>
-                                    <span className="bg-gradient-to-r from-white via-purple-400  to-blue-400
+                                    <span className="bg-gradient-to-r from-white   to-violet-600
                                 text-transparent bg-clip-text" >Lumava</span>
                             </h1>
                         </div>
@@ -35,7 +35,7 @@ export default function HomePage() {
                         <Link 
                             href="/portfolio"
                             className="text-black w-40 h-10 flex justify-center items-center rounded-md   
-                            mt-5 animation-button backdrop-blur-sm  bg-cyan-400 "
+                            mt-5 animation-button backdrop-blur-sm  bg-blue-300 "
                         >
                             Portafolio
                         </Link>
