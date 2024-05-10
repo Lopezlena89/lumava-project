@@ -51,7 +51,7 @@ export default function HomePage() {
                             Contactanos
                         </Link>
                     </div>       
-                    <BsArrowDownCircle className="animate-bounce absolute bottom-16 right-16 text-white text-3xl"/>
+                    <BsArrowDownCircle className="animate-bounce absolute bottom-20 right-12 text-white text-3xl"/>
                 </div>
             </section>
             {/* <section
