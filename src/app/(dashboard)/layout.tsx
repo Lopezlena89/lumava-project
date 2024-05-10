@@ -1,5 +1,5 @@
 import { Navbar } from "@/components/navbar/Navbar";
-import { NavbarMovil } from "@/components/navbar/NavbarMovil";
+
 
 export default async function CheckoutLayout({children}: {
  children: React.ReactNode;
@@ -9,7 +9,6 @@ export default async function CheckoutLayout({children}: {
     <>
     <div className="w-full h-full">
         <Navbar/>
-        <NavbarMovil/>
         { children }
     </div>
     </>

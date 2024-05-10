@@ -6,52 +6,60 @@ import SvgComponent1 from "@/components/svg/ImageSvgG1";
 import Image from "next/image";
 import Link from "next/link";
 import { Footer } from '../../components/footer/Footer';
+import { BsArrowDownCircle } from "react-icons/bs";
 
 
 export default function HomePage() {
   return (
     <>
-        <main className="overflow-hidden">
+        <main className="principal overflow-hidden">
             <SvgComponent />
             <SvgComponent1/>
-            <section className="principal w-full h-full  flex flex-col  overflow-hidden">
-                <div className="w-full h-full relative">
-                    <div className="w-full h-[480px]  flex flex-col items-center justify-center   ">
-                        <div 
-                            className="text-purple-200 font-sans font-semibold text-5xl animation-title"
-                        >
-                            <h1 className="text-center text-5xl md:text-7xl flex flex-col"> 
-                                    <span >Bienvenidos a</span>
-                                    <span className="bg-gradient-to-r from-white   to-violet-600
-                                text-transparent bg-clip-text" >Lumava</span>
-                            </h1>
-                        </div>
-                        <div 
-                            className="text-purple-200 font-sans font-semibold text-xl mt-5 animation-title-dos"
-                        >
-                            <p className="text-center">Empodérate con nuestros servicios </p>
-                            <p className="text-center"> y convierte tus deseos en adquisiciones</p>
-                        </div>
+            <section className=" w-full h-full  flex flex-col  overflow-hidden">
+                <div className=" w-full h-screen relative flex flex-col items-center justify-center">
+                    <div 
+                        className="text-purple-200 font-sans font-semibold text-5xl animation-title"
+                    >
+                        <h1 className="text-center text-5xl md:text-8xl flex flex-col"> 
+                                <span >Bienvenidos a</span>
+                                <span className="bg-gradient-to-r from-white   to-violet-600
+                            text-transparent bg-clip-text" >Lumava</span>
+                        </h1>
+                    </div>
+                
+                    <Image className="cloud-image my-2 md:my-1 w-[100px] h-[100px] md:w-[150px] md:h-[150px]" src="/cloud.svg" alt="nube--lumaba" width={200} height={200} />
+                    <div 
+                        className="text-purple-200 font-sans font-semibold  md:text-xl  animation-title-dos"
+                    >
+                        <p className="text-center">Empodérate con nuestros servicios </p>
+                        <p className="text-center"> y convierte tus deseos en adquisiciones</p>
+                    </div>
+                    
+                    <div className="w-full h-auto flex mt-5 justify-center">
                         <Link 
                             href="/portfolio"
-                            className="text-black w-40 h-10 flex justify-center items-center rounded-md   
-                            mt-5 animation-button backdrop-blur-sm  bg-blue-300 "
+                            className="text-black w-32 md:w-40 h-10 flex justify-center items-center rounded-md   
+                            m-5 animation-button backdrop-blur-sm  bg-blue-300 "
                         >
                             Portafolio
                         </Link>
-                    </div>  
-                    <div className="w-full h-[100px] md:h-[340px]   flex justify-center items-center animation-imagen relative ">
-                        <Image 
-                            alt="ipadpro" 
-                            src={"/ipadpro.webp" } 
-                            priority={true} 
-                            width={700} 
-                            height={700} 
-                            className="imagen absolute sm:-bottom-[230px] md:-bottom-[140px] lg:-bottom-[75%] w-[1100px]  "  />
+                        <Link 
+                            href="https://wa.me/523315753378" 
+                            className="text-black w-32 md:w-40 h-10 flex justify-center items-center rounded-md   
+                            m-5 animation-button-agendar backdrop-blur-sm  bg-violet-400 "
+                        >
+                            Contactanos
+                        </Link>
                     </div>       
+                    <BsArrowDownCircle className="animate-bounce absolute bottom-10 right-10 text-white text-3xl"/>
                 </div>
-                
             </section>
+            {/* <section
+                className="w-full h-[1000px] flex flex-col "   
+            >
+                <div className="w-full h-[300px] bg-red-100"/>
+                
+            </section> */}
             <section
                 className="w-full h-auto flex flex-col  "   
             >
