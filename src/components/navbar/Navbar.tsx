@@ -16,10 +16,10 @@ export const Navbar = () => {
         <header className='w-full z-20 fixed h-auto flex flex-col'>
             <nav 
                 className="z-20 w-full h-16  flex justify-between items-center list-none 
-                bg-black/90 px-10 border-b-[0.1px] border-gray-800"
+                bg-black/90 px-[7%] md:px-[5%] border-b-[0.1px] border-gray-800"
             >
             
-                <Link href="/" className="flex justify-center items-center ">
+                <Link href="/"  onClick={()=>closeSideMenu()} className="flex justify-center items-center ">
                     <h2 className='font-poppins text-violet-200 text-2xl hover:duration-300 hover:text-violet-400 pr-3'>Lumava</h2>
                     <Image
                         src="/cloud.svg"
