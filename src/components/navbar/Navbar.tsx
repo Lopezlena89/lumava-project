@@ -100,7 +100,6 @@ export const Navbar = () => {
             <div className={` w-full h-screen  flex-col  ${isSideMenuOpen?"flex":"hidden"}`} data-state="true">
                 <nav 
                     className='w-full h-auto overflow-hidden  z-10 flex flex-col items-center justify-center bg-black/90'
-                    
                 >
                     
                     <div 

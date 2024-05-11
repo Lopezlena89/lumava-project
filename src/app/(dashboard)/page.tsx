@@ -15,8 +15,8 @@ export default function HomePage() {
         <main className="principal overflow-hidden">
             <SvgComponent />
             <SvgComponent1/>
-            <section className=" w-full h-full  overflow-hidden">
-                <div className=" w-full h-screen relative flex flex-col items-center justify-center">
+            <section className=" w-full h-screen  ">
+                <div className=" w-full h-full relative  pb-[5%] flex flex-col items-center justify-center">
                     <div 
                         className="text-purple-200 font-sans font-semibold text-5xl animation-title"
                     >
@@ -51,7 +51,7 @@ export default function HomePage() {
                             Contactanos
                         </Link>
                     </div>       
-                    <BsArrowDownCircle className="animate-bounce absolute bottom-20 right-12 text-white text-3xl"/>
+                    <BsArrowDownCircle className="animate-bounce absolute bottom-[10%] right-[10%] text-white text-3xl"/>
                 </div>
             </section>
             {/* <section
