@@ -15,7 +15,7 @@ export default function HomePage() {
         <main className="principal overflow-hidden">
             <SvgComponent />
             <SvgComponent1/>
-            <section className=" w-full h-full  flex flex-col  overflow-hidden">
+            <section className=" w-full h-full  overflow-hidden">
                 <div className=" w-full h-screen relative flex flex-col items-center justify-center">
                     <div 
                         className="text-purple-200 font-sans font-semibold text-5xl animation-title"

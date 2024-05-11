@@ -15,7 +15,7 @@ export const Navbar = () => {
     <>
         <header className='w-full z-20 fixed h-auto flex flex-col'>
             <nav 
-                className="z-20 w-full h-16  flex justify-between items-center list-none 
+                className="z-10 w-full h-16  flex justify-between items-center list-none 
                 bg-black/90 px-[7%] md:px-[5%] border-b-[0.1px] border-gray-800"
             >
             
@@ -94,12 +94,18 @@ export const Navbar = () => {
                     size={35}
                 />
             </nav>
-            <div onClick={()=>closeSideMenu()}  className={`fixed w-full h-full bg-black/50 backdrop-blur-sm ${isSideMenuOpen ? "":"hidden"}`}/>
+            <div onClick={()=>closeSideMenu()}  className={` fixed w-full h-full bg-black/50 backdrop-blur-sm ${isSideMenuOpen ? "":"hidden"}`}/>
 
             
-            <div className={` w-full h-screen z-20 flex-col  ${isSideMenuOpen?"flex":"hidden"}`} data-state="true">
-                <nav className='w-full h-auto  flex flex-col items-center justify-center bg-black/90'>
-                    <div className='w-[95%] h-[70px]  border-b-[0.1px] border-solid border-gray-800 flex items-center '>
+            <div className={` w-full h-screen  flex-col  ${isSideMenuOpen?"flex":"hidden"}`} data-state="true">
+                <nav 
+                    className='w-full h-auto overflow-hidden  z-10 flex flex-col items-center justify-center bg-black/90'
+                    
+                >
+                    
+                    <div 
+                        className='w-[95%] h-[70px] border-b-[0.1px] border-solid border-gray-800 flex items-center '
+                    >
                         <Link
                             onClick={()=>closeSideMenu()}
                             className={`px-5  hover:text-violet-400 hover:duration-300    ${path==="/" ?"text-violet-400 " :"text-violet-200"}`}
@@ -164,6 +170,7 @@ export const Navbar = () => {
                             <PiWhatsappLogoThin className=' cursor-pointer hover:text-violet-400 hover:duration-300' size={25}/>
                         </Link>
                     </div>
+                  
                 </nav>
             </div>
         </header>
