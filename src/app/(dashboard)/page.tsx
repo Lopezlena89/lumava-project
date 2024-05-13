@@ -1,12 +1,10 @@
 
 import { CardGrid } from "@/components/card/CardGrid";
-import { Form } from "@/components/form/Form";
 import SvgComponent from "@/components/svg/ImageSvg";
 import SvgComponent1 from "@/components/svg/ImageSvgG1";
 import Image from "next/image";
 import Link from "next/link";
 import { Footer } from '../../components/footer/Footer';
-import { BsArrowDownCircle } from "react-icons/bs";
 import { ButtonModal } from "@/components/modal/ButtonModal";
 import { Modal } from "@/components/modal/Modal";
 
@@ -15,7 +13,7 @@ export default function HomePage() {
   return (
     <>
         <Modal/>
-        <main className="principal overflow-hidden">
+        <main className="principal overflow-hidden ">
             <SvgComponent />
             <SvgComponent1/>
             
@@ -49,16 +47,8 @@ export default function HomePage() {
                         </Link>
                         <ButtonModal/>
                     </div>   
-                    
-                    {/* <BsArrowDownCircle className="animate-bounce absolute bottom-[2%] right-[5%] text-white text-3xl" size={20}/> */}
                 </div>
             </section>
-            {/* <section
-                className="w-full h-[1000px] flex flex-col "   
-            >
-                <div className="w-full h-[300px] bg-red-100"/>
-                
-            </section> */}
             <section
                 className="w-full h-auto flex flex-col  "   
             >
