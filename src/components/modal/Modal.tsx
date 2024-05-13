@@ -160,6 +160,7 @@ export const Modal = () => {
                                         <div className="w-full h-auto p-2 rounded-t-xl bg-gray-900 text-white">
                                             <span className="text-xs">Esto es solo una vista previa</span>
                                         </div>
+                                        
                                         <div className="w-full  h-[100px] border-b-[0.1px] border-solid border-gray-400 flex justify-center items-center">
                                             <Image
                                                 src="/logo-lumava.svg"
