@@ -15,7 +15,7 @@ export const ModalLow = () => {
     const { register, handleSubmit,formState: {errors},setValue,watch } = useForm();
    
     const onSubmit:SubmitHandler<FieldValues> = async(data) =>{
-        
+       
         try {
             fetch("/api",{
               method:"POST",
@@ -51,7 +51,7 @@ export const ModalLow = () => {
                 <div className="w-full h-auto flex justify-between">
                     <div onClick={()=>closeSideModal()} className="cursor-pointer  p-3 flex items-center">
                         <IoChevronBackOutline size={20}/>
-                        <button className="pl-5 underline" >Cancelar</button>
+                        <button className="pl-1 underline" >Cancelar</button>
                     </div>
                     <div>
                         <Image
@@ -158,8 +158,8 @@ export const ModalLow = () => {
                                 </select>
                         </div>
                         <div className="w-full mt-5 p-3 flex justify-end">
-                            <button className="pr-5 font-light hover:underline text-xs" >Cancelar</button>
-                            <button className="w-[100px] h-[35px] text-xs bg-blue-400 rounded-lg hover:bg-blue-500">Enviar</button>
+                            
+                            <button  className="w-[100px] h-[35px] text-xs bg-blue-400 rounded-lg hover:bg-blue-500">Enviar</button>
                         </div>
                     </form>
                 </div> 
