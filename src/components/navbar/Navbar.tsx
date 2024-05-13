@@ -26,6 +26,7 @@ export const Navbar = () => {
                         width={40}
                         height={40}
                         alt="cloud"
+                        className='h-[40px]'
                     />
                 </Link>
                 

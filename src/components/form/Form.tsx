@@ -53,8 +53,8 @@ export const Form = () => {
                 name='name'
               />
               {
-              errors.name && <span className='text-red-300'>El nombre es requerido</span>
-             }
+                errors.name && <span className='text-red-300'>El nombre es requerido</span>
+              }
             </div>
             <div className='w-full h-[110px]  flex flex-col'>
               <span className='text-purple-200 text-2xl'>Apellido</span>

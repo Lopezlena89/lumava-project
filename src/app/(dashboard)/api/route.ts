@@ -3,6 +3,7 @@ import { Resend } from 'resend';
 import * as React from 'react';
 import EmailTemplate from '@/components/form/EmailTemplate';
 
+
  
 
 
@@ -19,12 +20,12 @@ export async function POST(request:Request) {
       subject: "Formulario clientes Lumava",
       react: EmailTemplate({
         name:res.name,
-        lastName:res.lastName,
-        enterprise:res.enterprise,
-        corporateEmail:res.corporateEmail,
-        city:res.city,
+        email:res.email,
         phone:res.phone,
-        textarea:res.textarea
+        time:res.time,
+        dateTime:res.dateTime,
+        contact:res.contact,
+        
       }) as React.ReactElement,
     });
 

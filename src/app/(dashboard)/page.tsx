@@ -7,14 +7,18 @@ import Image from "next/image";
 import Link from "next/link";
 import { Footer } from '../../components/footer/Footer';
 import { BsArrowDownCircle } from "react-icons/bs";
+import { ButtonModal } from "@/components/modal/ButtonModal";
+import { Modal } from "@/components/modal/Modal";
 
 
 export default function HomePage() {
   return (
     <>
+        <Modal/>
         <main className="principal overflow-hidden">
             <SvgComponent />
             <SvgComponent1/>
+            
             <section className=" w-full h-full  ">
                 <div className=" w-full h-full relative  py-[10%] flex flex-col items-center justify-center">
                     <div 
@@ -43,15 +47,10 @@ export default function HomePage() {
                         >
                             Portafolio
                         </Link>
-                        <Link 
-                            href="https://wa.me/523315753378" 
-                            className="text-black w-32 md:w-40 h-10 flex justify-center items-center rounded-md   
-                            m-5 animation-button-agendar backdrop-blur-sm  bg-violet-400 "
-                        >
-                            Contactanos
-                        </Link>
-                    </div>       
-                    <BsArrowDownCircle className="animate-bounce absolute bottom-[2%] right-[5%] text-white text-3xl"/>
+                        <ButtonModal/>
+                    </div>   
+                    
+                    {/* <BsArrowDownCircle className="animate-bounce absolute bottom-[2%] right-[5%] text-white text-3xl" size={20}/> */}
                 </div>
             </section>
             {/* <section
@@ -93,7 +92,7 @@ export default function HomePage() {
                     </div>
                 </div>
             </section>
-            <section className="w-full min-h-[400px] mt-20 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2">
+            <section className="w-full min-h-[400px] pb-10 mt-20 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2">
                 <div className="w-full h-full flex flex-col justify-center items-center">
                     <div className="w-[80%] h-[50px] flex justify-center items-center border-b-2 opacity-85 border-solit border-purple-200">
                             <h3><Link href="/web-developmen" className="text-purple-200 text-2xl text-center hover:text-violet-500  duration-1000">Desarrollo web</Link></h3>
@@ -129,9 +128,7 @@ export default function HomePage() {
                 
             </section>
         </main>
-        <section className="w-full min-h-[500px]  relative p-10">
-            <Form/>
-        </section>
+        
         <Footer/>
     </>
   );
