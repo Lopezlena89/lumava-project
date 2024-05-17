@@ -147,7 +147,7 @@ export const ModalHight = () => {
                             width={200}
                             height={200}
                             alt="cloud"
-                            className="pt-3"
+                            className="pt-3 w-[200px]"
                         />
                     </div>
                     <div className="w-full h-auto py-10 border-b-[0.1px] border-solid border-gray-400 flex flex-col justify-center items-center ">
