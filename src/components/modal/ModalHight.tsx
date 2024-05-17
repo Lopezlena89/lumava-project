@@ -129,7 +129,7 @@ export const ModalHight = () => {
                             </select>
                     </div>
                     <div className="w-full mt-5 p-3 flex justify-end">
-                        <button className="pr-5 font-light hover:underline text-sm" >Cancelar</button>
+                        
                         <button className="w-[100px] h-[35px] text-sm  bg-blue-400 rounded-lg hover:bg-blue-500">Enviar</button>
                     </div>
                 </form>
