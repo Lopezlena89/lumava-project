@@ -141,13 +141,13 @@ export const ModalHight = () => {
                         <span className="text-xs">Esto es solo una vista previa</span>
                     </div>
                     
-                    <div className="w-full  h-[100px] border-b-[0.1px] border-solid border-gray-400 flex justify-center items-center">
+                    <div className="w-full  h-[100px] border-b-[0.1px] border-solid border-gray-400 py-5 flex justify-center items-center">
                         <Image
-                            src="/logo-lumava.svg"
-                            width={200}
-                            height={200}
+                            src="/cloud.svg"
+                            width={100}
+                            height={100}
                             alt="cloud"
-                            className="pt-3 w-[200px]"
+                            className="pt-3 w-[70px]"
                         />
                     </div>
                     <div className="w-full h-auto py-10 border-b-[0.1px] border-solid border-gray-400 flex flex-col justify-center items-center ">
