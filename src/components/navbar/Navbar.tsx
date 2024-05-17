@@ -20,7 +20,7 @@ export const Navbar = () => {
             >
             
                 <Link href="/"  onClick={()=>closeSideMenu()} className="flex justify-center items-center ">
-                    <h2 className='font-poppins text-violet-200 text-2xl hover:duration-300 hover:text-violet-400 pr-3'>Lumava</h2>
+                    <h2 className='text-gray-200 text-2xl hover:duration-300 hover:text-violet-400 pr-3'>Lumava</h2>
                     <Image
                         src="/cloud.svg"
                         width={40}
@@ -30,7 +30,7 @@ export const Navbar = () => {
                     />
                 </Link>
                 
-                <li className="hidden lg:flex items-center justify-evenly lg:justify-end md:text-[13px] lg:text-base w-[88%] text-violet-200">
+                <li className="hidden lg:flex items-center justify-evenly lg:justify-end text-[] lg:text-[0.9em] w-[88%] text-gray-200">
                     <Link
                         className={`pr-3  hover:text-violet-400 hover:duration-300 ${path==="/" ?"text-violet-400" :""}`}
                         href='/'
@@ -66,7 +66,7 @@ export const Navbar = () => {
                         Paquetes
                     </Link>
                     
-                    <div className="flex items-center text-purple-200 ml-10">
+                    <div className="flex items-center text-gray-200 ml-10">
                         <Link
                             href='https://www.instagram.com/lumava_agency/'
                         >
@@ -108,7 +108,7 @@ export const Navbar = () => {
                     >
                         <Link
                             onClick={()=>closeSideMenu()}
-                            className={`px-5  hover:text-violet-400 hover:duration-300    ${path==="/" ?"text-violet-400 " :"text-violet-200"}`}
+                            className={`px-5  hover:text-violet-400 hover:duration-300    ${path==="/" ?"text-violet-400 " :"text-gray-200"}`}
                             href='/'
                         >
                             Nosotros
@@ -117,7 +117,7 @@ export const Navbar = () => {
                     <div className='w-[95%] h-[70px]  border-b-[0.1px] border-solid border-gray-800 flex items-center '>
                         <Link
                             onClick={()=>closeSideMenu()}
-                            className={`px-5  hover:text-violet-400 hover:duration-300    ${path==="/portfolio" ?"text-violet-400 " :"text-violet-200"}`}
+                            className={`px-5  hover:text-violet-400 hover:duration-300    ${path==="/portfolio" ?"text-violet-400 " :"text-gray-200"}`}
                             href='/portfolio'
                         >
                             Portafolio
@@ -126,7 +126,7 @@ export const Navbar = () => {
                     <div className='w-[95%] h-[70px]  border-b-[0.1px] border-solid border-gray-800 flex items-center '>
                         <Link
                             onClick={()=>closeSideMenu()}
-                            className={`px-5  hover:text-violet-400 hover:duration-300    ${path==="/web-developmen" ?"text-violet-400 " :"text-violet-200"}`}
+                            className={`px-5  hover:text-violet-400 hover:duration-300    ${path==="/web-developmen" ?"text-violet-400 " :"text-gray-200"}`}
                             href='/web-developmen'
                         >
                             Desarrollo Web
@@ -135,7 +135,7 @@ export const Navbar = () => {
                     <div className='w-[95%] h-[70px]  border-b-[0.1px] border-solid border-gray-800 flex items-center '>
                         <Link
                             onClick={()=>closeSideMenu()}
-                            className={`px-5  hover:text-violet-400 hover:duration-300    ${path==="/blog" ?"text-violet-400 " :"text-violet-200"}`}
+                            className={`px-5  hover:text-violet-400 hover:duration-300    ${path==="/blog" ?"text-violet-400 " :"text-gray-200"}`}
                             href='/blog'
                         >
                             Blog
@@ -144,13 +144,13 @@ export const Navbar = () => {
                     <div className='w-[95%] h-[70px]  border-b-[0.1px] border-solid border-gray-800 flex items-center '>
                         <Link
                             onClick={()=>closeSideMenu()}
-                            className={` px-5 hover:text-violet-400 hover:duration-300   ${path==="/offers" ?"text-violet-400 " :"text-violet-200"}`}
+                            className={` px-5 hover:text-violet-400 hover:duration-300   ${path==="/offers" ?"text-violet-400 " :"text-gray-200"}`}
                             href='/offers'
                         >
                             Paquetes
                         </Link>
                     </div>
-                    <div className='w-[95%] h-[100px]  text-purple-200 flex justify-start'>
+                    <div className='w-[95%] h-[100px]  text-gray-200 flex justify-start'>
                         <Link
                             href='https://www.instagram.com/lumava_agency/'
                            className='py-4 pl-4 pr-2'

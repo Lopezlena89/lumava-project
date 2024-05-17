@@ -1,4 +1,4 @@
-import { CardsMove } from "@/components/card/CardsMove";
+import { CardsMove } from "@/components/mainPage/card/CardsMove";
 import SvgComponent from "@/components/svg/ImageSvg";
 import SvgComponent1 from "@/components/svg/ImageSvgG1";
 import {  offersWeb } from "@/utils/text/data";

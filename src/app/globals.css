@@ -49,7 +49,9 @@
 .cloud-image{
   animation: pulse 1.5s cubic-bezier(0.4, 0, 0.6, 1) infinite;
   cursor:pointer;
- 
+}
+.filter-mac:hover{
+  filter: drop-shadow(0 0px 20px rgb(87, 38, 125));
 }
 
 @keyframes pulse {
