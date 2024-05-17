@@ -7,7 +7,7 @@ export const ButtonModal = () => {
     <>
         <button
             onClick={()=>openSideModal()}
-            className="modal-section text-black w-32 md:w-40 h-10 flex justify-center items-center rounded-md   
+            className=" text-black w-32 md:w-40 h-10 flex justify-center items-center rounded-md   
             m-5 animation-button-agendar backdrop-blur-sm  bg-violet-400 "
         >
             Agendar Cita

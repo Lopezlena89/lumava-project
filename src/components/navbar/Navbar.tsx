@@ -16,7 +16,7 @@ export const Navbar = () => {
         <header className='w-full z-20 fixed h-auto flex flex-col'>
             <nav 
                 className="z-10 w-full h-16  flex justify-between items-center list-none 
-                bg-black/90 px-[7%] md:px-[5%] border-b-[0.1px] border-gray-800"
+                bg-black/70 px-[7%] md:px-[5%] border-b-[0.1px] border-gray-800 "
             >
             
                 <Link href="/"  onClick={()=>closeSideMenu()} className="flex justify-center items-center ">

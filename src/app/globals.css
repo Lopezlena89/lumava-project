@@ -2,34 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
-  font-family: "Poppins";
-  src: url("/typography/Poppins-Light.ttf") format('ttf');
-}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
 }
+
 *{
   margin:0;
   padding:0;
 }
-/* .home-principal{
-  mask-image: linear-gradient(
-    black 90%,
-    transparent
-  );
-} */
-/* .imagen{
-  filter:drop-shadow(
-    0 0 50px rgb(27,70,140,0.5)
-  );
-  transition:all 1s ;
-} */
 .principal{  
-  background-color:rgb(27,70,140,0.3);
-  background-image: radial-gradient(circle, rgba(60,50,129,0.598433123249299) -50%, rgba(0,0,0,1) 100%); 
+  background-color:rgb(19, 28, 45,0.5);
   padding-top:64px;
 }
 .animation-title{
@@ -52,7 +37,7 @@
 }
 .animation-button-agendar:hover{
   transition:all 0.8s ease-in-out;
-  box-shadow:0px 0px 20px purple;
+  box-shadow:0px 0px 40px purple;
 }
 .animation-imagen{
   animation:1s inicio-img 1;
@@ -64,6 +49,7 @@
 .cloud-image{
   animation: pulse 1.5s cubic-bezier(0.4, 0, 0.6, 1) infinite;
   cursor:pointer;
+ 
 }
 
 @keyframes pulse {

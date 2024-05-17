@@ -1,4 +1,4 @@
-
+'use client'
 import { useModalPreviewStore } from "@/store/moda-preview/storeModalPreview";
 import { useModalStore } from "@/store/modal/storeModal";
 import { IoChevronBackOutline } from "react-icons/io5";
@@ -81,7 +81,7 @@ export const ModalLow = () => {
             {
                 isSideModalPreview 
                 ? 
-                <div className="w-full h-full p-5  overflow-auto">
+                <div className="w-full h-full p-5   overflow-auto">
                     <form onSubmit={handleSubmit(onSubmit)}  className="flex flex-col ">
                         <div className="name w-full h-auto flex flex-col justify-start">
                                 <h3 className="font-medium text-xs">Nombre:</h3>

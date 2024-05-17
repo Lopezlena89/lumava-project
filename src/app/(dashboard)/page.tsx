@@ -7,6 +7,7 @@ import Link from "next/link";
 import { Footer } from '../../components/footer/Footer';
 import { ButtonModal } from "@/components/modal/ButtonModal";
 import { Modal } from "@/components/modal/Modal";
+import { ModalLow } from "@/components/modal/ModalLow";
 
 
 export default function HomePage() {
@@ -18,21 +19,27 @@ export default function HomePage() {
             <SvgComponent />
             <SvgComponent1/>
             
-            <section className=" w-full h-full  ">
+            <section className=" w-full h-full flex ">
                 <div className=" w-full h-full relative  py-[10%] flex flex-col items-center justify-center">
                     <div 
-                        className="text-purple-200 font-sans font-semibold text-5xl animation-title"
+                        className="text-purple-200  font-semibold  animation-title "
                     >
-                        <h1 className="text-center text-5xl md:text-8xl flex flex-col"> 
+                        <h1 className="text-center text-5xl md:text-7xl flex flex-col"> 
                                 <span >Bienvenidos a</span>
-                                <span className="bg-gradient-to-r from-white   to-violet-600
+                                <span className="bg-gradient-to-r from-purple-300 via-purple-300  to-purple-400
                             text-transparent bg-clip-text" >Lumava</span>
                         </h1>
                     </div>
                 
-                    <Image className="cloud-image my-2 md:my-1 w-[100px] h-[100px] md:w-[150px] md:h-[150px]" src="/cloud.svg" alt="nube--lumaba" width={200} height={200} />
+                    <Image 
+                        className="cloud-image my-2 md:my-1 w-[100px] h-[100px] md:w-[150px] md:h-[150px]" 
+                        src="/cloud.svg" 
+                        alt="nube--lumaba" 
+                        width={200} 
+                        height={200} 
+                    />
                     <div 
-                        className="text-purple-200 font-sans font-semibold  md:text-xl  animation-title-dos"
+                        className=" text-purple-200 font-semibold  md:text-xl  animation-title-dos"
                     >
                         <p className="text-center">Empodérate con nuestros servicios </p>
                         <p className="text-center"> y convierte tus deseos en adquisiciones</p>
@@ -49,9 +56,11 @@ export default function HomePage() {
                         <ButtonModal/>
                     </div>   
                 </div>
+                
+                
             </section>
             <section
-                className="w-full h-auto flex flex-col  "   
+                className="w-full h-auto  flex flex-col  "   
             >
                 <CardGrid/>
             </section>
@@ -68,7 +77,7 @@ export default function HomePage() {
                     />
                     <div className="w-full max-h-full flex flex-col p-10 z-10 bg-black rounded-xl">
                             <div className="w-full h-[50px] mt-5 flex justify-center items-center text-center">
-                                <h3 className="text-purple-200 text-4xl ">¿Porque elegir a <span className="bg-gradient-to-r from-white via-purple-400  to-blue-400
+                                <h3 className="text-purple-200 text-4xl ">¿Porque elegir a <span className="bg-gradient-to-r from-purple-300 via-purple-300  to-purple-400
                                 text-transparent bg-clip-text" >Lumava</span>?</h3>
                             </div>
                             <div className="w-full h- text-purple-200">
