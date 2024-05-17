@@ -15,7 +15,7 @@ export const Modal = () => {
                 <div 
                     className={`fixed z-20 flex justify-center items-center w-screen h-screen bg-black/60 backdrop-blur-sm`}
                 >
-                    <div className="min-w-[340px] w-[80%] w-max-[1000px] min-h-[580px] h-[80%] rounded-xl flex  bg-white">
+                    <div className="min-w-[340px] w-[80%] w-max-[1000px] min-h-[580px] h-[80%] rounded-xl flex  bg-white font-mono">
                         <div className="hidden lg:flex h-full w-full">
                             <ModalHight/>
                         </div>

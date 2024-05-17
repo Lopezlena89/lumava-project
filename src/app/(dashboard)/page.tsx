@@ -22,9 +22,9 @@ export default function HomePage() {
             <section className=" w-full h-full flex ">
                 <div className=" w-full h-full relative  py-[10%] flex flex-col items-center justify-center">
                     <div 
-                        className="text-purple-200  font-semibold  animation-title "
+                        className="text-purple-200  font-semibold  animation-title font-mono"
                     >
-                        <h1 className="text-center text-5xl md:text-7xl flex flex-col"> 
+                        <h1 className="text-center text-5xl md:text-7xl flex flex-col "> 
                                 <span >Bienvenidos a</span>
                                 <span className="bg-gradient-to-r from-purple-300 via-purple-300  to-purple-400
                             text-transparent bg-clip-text" >Lumava</span>
@@ -59,8 +59,23 @@ export default function HomePage() {
                 
                 
             </section>
+            {/* <section className="w-full h-[400px] relative">
+                <div className="w-full  ">
+                    <h2 className="font-mono text-4xl md:text-6xl bg-gradient-to-r from-purple-300 via-purple-300  to-purple-400
+                    text-transparent bg-clip-text text-center ">Sabias que</h2>
+
+                </div>
+                <div className="w-[50%] h-full flex flex-col justify-center  items-center text-purple-200">
+                    <h3>Sabias que no tener una pagina web </h3>
+                    <p> puede hacer que tu negocio parezca menos serio o actualizado en comparación con la competencia.</p>
+                    <p>No te preocupes nosotros te ayudamos agenda tu cita aqui</p>
+                </div>
+                <div className="w-[50%] h-full ">
+
+                </div>
+            </section> */}
             <section
-                className="w-full h-auto  flex flex-col  "   
+                className="w-full h-auto  flex flex-col relative "   
             >
                 <CardGrid/>
             </section>

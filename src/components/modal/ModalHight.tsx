@@ -47,9 +47,9 @@ export const ModalHight = () => {
     
         <div className={` w-full lg:w-[50%] h-full shadow-2xl flex flex-col p-5 `}>
             <div className="w-full h-auto flex flex-col border-b-[0.1px] border-solid border-gray-400">
-                <div onClick={()=>closeSideModal()} className="cursor-pointer  p-3 flex items-center">
+                <div onClick={()=>closeSideModal()} className="cursor-pointer  p-3 flex items-center ">
                     <IoChevronBackOutline size={20}/>
-                    <button className="pl-5 underline" >Cancelar</button>
+                    <button className="pl-3 underline" >Cancelar</button>
                 </div>
             </div>
             <div className="w-full h-full p-5  overflow-auto">

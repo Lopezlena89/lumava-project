@@ -5,7 +5,7 @@ import { Card } from "./Card"
 export const CardGrid = () => {
   return (
    <>
-        <h2 className=" w-full h-[200px] z-10 px-5 flex flex-col justify-center items-center">
+        <h2 className=" w-full h-[200px] z-10 px-5 flex flex-col justify-center items-center font-mono font-semibold">
             <p className="text-4xl md:text-6xl bg-gradient-to-r from-purple-300 via-purple-300  to-purple-400
                     text-transparent bg-clip-text text-center ">Tu presencia en linea</p>
         </h2>
