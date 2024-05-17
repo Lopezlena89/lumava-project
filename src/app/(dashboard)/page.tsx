@@ -11,6 +11,8 @@ import { UpdatesPage } from "@/components/mainPage/updatespage/UpdatesPage";
 
 
 export default function HomePage() {
+
+       
     
   return (
     <>
