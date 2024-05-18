@@ -111,27 +111,27 @@ export default function WebPage() {
                 <div className="w-full h-full  flex flex-col justify-start items-center py-3 px-[5%]">
                   <span className="text-gray-100 opacity-10 hover:opacity-40 duration-700 text-7xl">01</span>
                   <span className="text-violet-400 py-2 font-mono">Consulta tu idea</span>
-                  <span className="text-center">Consultando las mejores estrategias para tu pagina web</span>
+                  <span >Consultando las mejores estrategias para tu pagina web</span>
                 </div>
                 <div className="w-full h-full  flex flex-col justify-start items-center py-3 px-[5%]">
                   <span className="text-gray-100 opacity-10 hover:opacity-40 duration-700  text-7xl">02</span>
                   <span className="text-violet-400 py-2 font-mono">Elige una tecnología</span>
-                  <span className="text-center">Definir la tecnologia ideal para tu proyecto</span>
+                  <span >Definir la tecnologia ideal para tu proyecto</span>
                 </div>
                 <div className="w-full h-full  flex flex-col justify-start items-center py-3 px-[5%]">
                   <span className="text-gray-100 opacity-10 hover:opacity-40 duration-700  text-7xl">03</span>
                   <span className="text-violet-400 py-2 font-mono">Diseño</span>
-                  <span className="text-center">Creando una solución web hermosa y fácil de usar con nuestros especialistas en diseño</span>
+                  <span >Creando una solución web hermosa y fácil de usar con nuestros especialistas en diseño</span>
                 </div>
                 <div className="w-full h-full  flex flex-col justify-start items-center py-3 px-[5%]">
                   <span className="text-gray-100 opacity-10 hover:opacity-40 duration-700  text-7xl">04</span>
                   <span className="text-violet-400 py-2 font-mono">Desarrollo</span>
-                  <span className="text-center">Codificando tu desarrollo web</span>
+                  <span >Codificando tu desarrollo web</span>
                 </div>
                 <div className="w-full h-full  col-span-2 md:col-span-4 lg:col-span-1 flex flex-col justify-start items-center py-3 px-[25%] md:px-[35%] lg:px-[5%]">
                   <span className="text-gray-100 opacity-10 hover:opacity-40 duration-700  text-7xl">05</span>
                   <span className="text-violet-400 py-2 font-mono">Llegar al mercado</span>
-                  <span className="text-center">Lanzar su producto y mantenerlo en buen estado con soporte y mantenimiento.</span>
+                  <span >Lanzar su producto y mantenerlo en buen estado con soporte y mantenimiento.</span>
                 </div>
             </div>
             
