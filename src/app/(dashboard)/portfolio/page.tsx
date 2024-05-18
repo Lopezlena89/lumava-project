@@ -30,9 +30,9 @@ export default function Portfolio() {
               className="w-full h-full pt-1 rounded-lg "
               target="_black"
             >
-              <div className="w-full h-full card rounded-lg flex justify-center items-center   ">
-                <span className="font-medium text-purple-200">Go to project</span>
-                <IoIosArrowRoundForward className='ml-2 text-purple-200' />
+              <div className="w-full h-full card rounded-lg flex justify-center items-center  text-gray-200 ">
+                <span className="font-medium ">Go to project</span>
+                <IoIosArrowRoundForward className='ml-2 ' />
               </div>
             </Link>
           </div>
@@ -55,9 +55,9 @@ export default function Portfolio() {
               className="w-full h-full pt-1 rounded-lg "
               target="_black"
             >
-              <div className="w-full card h-full rounded-lg flex justify-center items-center  ">
-                <span className="font-medium text-purple-200">Go to project</span>
-                <IoIosArrowRoundForward className='ml-2 text-purple-200' />
+              <div className="w-full card h-full rounded-lg flex justify-center items-center text-gray-200 ">
+                <span className="font-medium ">Go to project</span>
+                <IoIosArrowRoundForward className='ml-2 ' />
               </div>
             </Link>
           </div>
@@ -80,9 +80,9 @@ export default function Portfolio() {
               className="w-full h-full pt-1 rounded-lg   "
               target="_black"
             >
-              <div className="w-full h-full card rounded-lg flex justify-center items-center  ">
-                <span className="font-medium text-purple-200">Go to project</span>
-                <IoIosArrowRoundForward className='ml-2 text-purple-200' />
+              <div className="w-full h-full card rounded-lg flex justify-center items-center text-gray-200 ">
+                <span className="font-medium ">Go to project</span>
+                <IoIosArrowRoundForward className='ml-2 ' />
               </div>
             </Link>
           </div>
@@ -108,9 +108,9 @@ export default function Portfolio() {
               className="w-full h-full pt-1 rounded-lg  "
               target="_black"
             >
-              <div className="w-full h-full card rounded-lg flex justify-center items-center   ">
-                <span className="font-medium text-purple-200">Go to project</span>
-                <IoIosArrowRoundForward className='ml-2 text-purple-200' />
+              <div className="w-full h-full card rounded-lg flex justify-center items-center  text-gray-200 ">
+                <span className="font-medium ">Go to project</span>
+                <IoIosArrowRoundForward className='ml-2 ' />
               </div>
             </Link>
           </div>
@@ -133,9 +133,9 @@ export default function Portfolio() {
               className="w-full h-full pt-1 rounded-lg  "
               target="_black"
             >
-              <div className="w-full h-full card rounded-lg flex justify-center items-center   ">
-                <span className="font-medium text-purple-200">Go to project</span>
-                <IoIosArrowRoundForward className='ml-2 text-purple-200' />
+              <div className="w-full h-full card rounded-lg flex justify-center items-center text-gray-200  ">
+                <span className="font-medium ">Go to project</span>
+                <IoIosArrowRoundForward className='ml-2 ' />
               </div>
             </Link>
           </div>
@@ -157,9 +157,9 @@ export default function Portfolio() {
               className="w-full h-full pt-1 rounded-lg  "
               target="_black"
             >
-              <div className="w-full h-full card rounded-lg flex justify-center items-center   ">
-                <span className="font-medium text-purple-200">Go to project</span>
-                <IoIosArrowRoundForward className='ml-2 text-purple-200' />
+              <div className="w-full h-full card rounded-lg flex justify-center items-center text-gray-200  ">
+                <span className="font-medium ">Go to project</span>
+                <IoIosArrowRoundForward className='ml-2 ' />
               </div>
             </Link>
           </div>
@@ -189,9 +189,9 @@ export default function Portfolio() {
               className="w-full h-full pt-1 rounded-lg "
               target="_black"
             >
-              <div className="w-full card h-full rounded-lg flex justify-center items-center  ">
-                <span className="font-medium text-purple-200">Go to project</span>
-                <IoIosArrowRoundForward className='ml-2 text-purple-200' />
+              <div className="w-full card h-full rounded-lg flex justify-center items-center text-gray-200 ">
+                <span className="font-medium ">Go to project</span>
+                <IoIosArrowRoundForward className='ml-2 ' />
               </div>
             </Link>
           </div>
@@ -214,9 +214,9 @@ export default function Portfolio() {
               className="w-full h-full pt-1 rounded-lg bg-gray-100  "
               target="_black"
             >
-              <div className="w-full h-full card rounded-lg flex justify-center items-center  ">
-                <span className="font-medium text-purple-200">Go to project</span>
-                <IoIosArrowRoundForward className='ml-2 text-purple-200' />
+              <div className="w-full h-full card rounded-lg flex justify-center items-center text-gray-200 ">
+                <span className="font-medium ">Go to project</span>
+                <IoIosArrowRoundForward className='ml-2 ' />
               </div>
             </Link>
           </div>

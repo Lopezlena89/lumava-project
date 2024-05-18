@@ -3,9 +3,7 @@ import { LinkModal } from "@/components/modal/LinkModal";
 import { Modal } from "@/components/modal/Modal";
 import SvgComponent from "@/components/svg/ImageSvg";
 import SvgComponent1 from "@/components/svg/ImageSvgG1";
-import Image from "next/image";
-import Link from "next/link";
-import { CiGlobe,CiShoppingBasket } from "react-icons/ci";
+import { CiGlobe,CiShoppingBasket,CiMobile3,CiMonitor } from "react-icons/ci";
 
 
 export default function WebPage() {
@@ -79,7 +77,7 @@ export default function WebPage() {
                 <div className='relative h-10 w-10 overflow-hidden rounded-xl border border-gray-800 p-[1px] backdrop-blur-3xl'>
                     <span className='absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]' />
                     <div className='inline-flex h-full w-full items-center justify-center rounded-xl bg-gray-950 text-sm  backdrop-blur-3xl'>
-                      <CiGlobe size={25} className="text-white"/>
+                      <CiMobile3 size={25} className="text-white"/>
                     </div>
                 </div>
                 <div className="w-full text-gray-200 text-sm py-5 flex flex-col items-center">
@@ -91,7 +89,7 @@ export default function WebPage() {
                 <div className='relative h-10 w-10 overflow-hidden rounded-xl border border-gray-800 p-[1px] backdrop-blur-3xl'>
                     <span className='absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]' />
                     <div className='inline-flex h-full w-full items-center justify-center rounded-xl bg-gray-950 text-sm  backdrop-blur-3xl'>
-                      <CiGlobe size={25} className="text-white"/>
+                      <CiMonitor size={25} className="text-white"/>
                     </div>
                 </div>
                 <div className="w-full text-gray-200 text-sm py-5 flex flex-col items-center">
