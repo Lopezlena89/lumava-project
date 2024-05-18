@@ -1,6 +1,6 @@
 import Image from "next/image"
 import Blog from '../../../app/(dashboard)/blog/page';
-import { PageProps } from '../../../../.next/types/app/layout';
+
 
 
 export const UpdatesPage = () => {

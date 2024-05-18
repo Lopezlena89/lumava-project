@@ -24,9 +24,9 @@ export default function HomePage() {
             <section className=" w-full h-full flex ">
                 <FirstPage/>
             </section>
-            <section className="w-full h-auto relative p-5 ">
+            {/* <section className="w-full h-auto relative p-5 ">
                 <UpdatesPage/>
-            </section>
+            </section> */}
             <section className="w-full h-auto  flex flex-col relative " >
                 <CardGrid/>
             </section>
