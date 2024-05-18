@@ -11,8 +11,8 @@ export const FirstPage = () => {
                 className="text-gray-200  font-semibold  animation-title font-mono"
             >
                 <h1 className="text-center text-5xl md:text-7xl flex flex-col "> 
-                        <span className="hover:text-violet-300 duration-700">Bienvenidos a</span>
-                        <span className="text-violet-300" >Lumava</span>
+                        <span className="hover:text-violet-400 duration-700">Bienvenidos a</span>
+                        <span className="hover:text-violet-400 duration-700" >Lumava</span>
                 </h1>
             </div>
         
