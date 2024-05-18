@@ -33,8 +33,7 @@ export default function WebPage() {
                   <p 
                     className="text-center text-[0.8em]"
                   >
-                    {`"Diseñamos y creamos webs creativas y diseñadas a la medida del cliente para darles
-                    una ventaja competitiva con respecto a sus competidores."`}
+                    {`"Diseñamos y creamos webs creativas, creadas a la medida del cliente dándole una ventaja competitiva a la demanda del mercado"`}
                   </p>
               </div>
             </div>
