@@ -49,7 +49,7 @@ export default function WebPage() {
                   de control de calidad, mantenimiento, consultoria e incluso CMS</span>
             </div>
             <div className="w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
-              <div className="w-full h-auto  flex flex-col items-center justify-start border-solid border-[1px] border-gray-800 p-4 rounded-xl">
+              <div className="w-full h-auto  flex flex-col items-center justify-start bg-black border-solid border-[1px] border-gray-800 p-4 rounded-xl">
                 <div className='relative h-10 w-10 overflow-hidden rounded-xl border border-gray-800 p-[1px] backdrop-blur-3xl'>
                     <span className='absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]' />
                     <div className='inline-flex h-full w-full items-center justify-center rounded-xl bg-gray-950 text-sm  backdrop-blur-3xl'>
@@ -62,7 +62,7 @@ export default function WebPage() {
                     a generar confianza y generar clientes potenciales.</p>
                 </div>
               </div>
-              <div className="w-full h-auto flex flex-col items-center justify-start border-solid border-[1px] border-gray-800 p-4 rounded-xl">
+              <div className="w-full h-auto flex flex-col items-center justify-start bg-black border-solid border-[1px] border-gray-800 p-4 rounded-xl">
                 <div className='relative h-10 w-10 overflow-hidden rounded-xl border border-gray-800 p-[1px] backdrop-blur-3xl'>
                     <span className='absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]' />
                     <div className='inline-flex h-full w-full items-center justify-center rounded-xl bg-gray-950 text-sm  backdrop-blur-3xl'>
@@ -75,7 +75,7 @@ export default function WebPage() {
                   <p>Con las soluciones de comercio electrónico, las empresas pueden operar las 24 horas del día, los 7 días de la semana y llegar a clientes en cualquier zona horaria.</p>
                 </div>
               </div>
-              <div className="w-full h-auto flex flex-col items-center justify-start border-solid border-[1px] border-gray-800 p-4 rounded-xl">
+              <div className="w-full h-auto flex flex-col items-center justify-start bg-black border-solid border-[1px] border-gray-800 p-4 rounded-xl">
                 <div className='relative h-10 w-10 overflow-hidden rounded-xl border border-gray-800 p-[1px] backdrop-blur-3xl'>
                     <span className='absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]' />
                     <div className='inline-flex h-full w-full items-center justify-center rounded-xl bg-gray-950 text-sm  backdrop-blur-3xl'>
@@ -87,7 +87,7 @@ export default function WebPage() {
                   <p>Las aplicaciones web pueden llegar a una audiencia global. Son interactivos y atractivos, por lo que pueden captar fácilmente la atención de los usuarios.</p>
                 </div>
               </div>
-              <div className="w-full h-auto flex flex-col items-center justify-start border-solid border-[1px] border-gray-800 p-4 rounded-xl">
+              <div className="w-full h-auto flex flex-col items-center justify-start bg-black border-solid border-[1px] border-gray-800 p-4 rounded-xl">
                 <div className='relative h-10 w-10 overflow-hidden rounded-xl border border-gray-800 p-[1px] backdrop-blur-3xl'>
                     <span className='absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]' />
                     <div className='inline-flex h-full w-full items-center justify-center rounded-xl bg-gray-950 text-sm  backdrop-blur-3xl'>
