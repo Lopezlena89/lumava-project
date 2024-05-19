@@ -13,16 +13,22 @@ export const LittleSquare = ({icon}:{icon:string}) => {
     switch (icon) {
       case "Accesibilidad":
         return <CiGlobe size={25} className="text-white"/>
+        break;
       case "Credibilidad":
         return <PiPaintBrushThin size={25} className="text-white"/>
+        break;
       case "Interaccion con cliente":
         return <HiOutlineUserGroup size={25} className="text-white"/>
+        break;
       case "Marketing y Promocion":
         return <FiTrendingUp size={25} className="text-white"/>
+        break;
       case "Presencia en linea":
         return <LiaLaptopCodeSolid size={25} className="text-white"/>
+        break;
       case "Venta en linea":
         return <GiReceiveMoney size={25} className="text-white"/>
+        break;
        
       default:""
         return ""

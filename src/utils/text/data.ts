@@ -28,11 +28,7 @@ export const getDataWeb =[
     },
 ]
 
-export const porqueLumava = [
-    {
-        titulo:""
-    }
-]
+
 
 export const offersWeb =[
    {
