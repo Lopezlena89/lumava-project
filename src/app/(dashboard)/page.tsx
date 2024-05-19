@@ -30,7 +30,7 @@ export default function HomePage() {
             <section className="w-full h-auto  flex flex-col relative " >
                 <CardGrid/>
             </section>
-            <section className="w-full h-[500px] mt-16 p-5 " >
+            <section className="w-full h-auto pt-10 p-5 " >
                 <WhyLumava/>
             </section>
             <section className="w-full min-h-[400px] pb-10 mt-20 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2">
