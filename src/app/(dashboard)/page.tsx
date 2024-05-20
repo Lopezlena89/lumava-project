@@ -17,9 +17,10 @@ export default function HomePage() {
   return (
     <>
         <Modal/>
+        <SvgComponent />
+        <SvgComponent1/>
         <main className="principal overflow-hidden ">
-            <SvgComponent />
-            <SvgComponent1/>
+            
             
             <section className=" w-full h-full flex ">
                 <FirstPage/>

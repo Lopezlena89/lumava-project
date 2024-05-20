@@ -16,7 +16,7 @@
 .principal{  
   background-color:rgb(19, 28, 45,0.5);
   padding-top:64px;
-  view-timeline: --scroll;
+ 
 }
 .animation-title{
     animation:1s inicio 1;

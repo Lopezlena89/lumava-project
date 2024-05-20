@@ -7,9 +7,9 @@ import { Footer } from '../../../components/footer/Footer';
 export default function Offers() {
     return (
       <>
+        <SvgComponent />
+        <SvgComponent1/>
         <main className="principal w-full h-full ">
-            <SvgComponent />
-            <SvgComponent1/>
             <section className=" w-full h-auto flex flex-col  overflow-hidden">
               <div className="w-full min-h-[250px]   flex flex-col items-center justify-end px-5 ">
                   <div 

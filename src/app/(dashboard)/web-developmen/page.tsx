@@ -13,9 +13,10 @@ export default function WebPage() {
   return (
     <>
       <Modal/>
+      <SvgComponent />
+      <SvgComponent1/>
       <main className="principal w-full h-full   ">
-        <SvgComponent />
-        <SvgComponent1/>
+        
        
         <section className="w-full h-auto px-[10%]">
           <section className="w-full h-full flex flex-col items-center ">
