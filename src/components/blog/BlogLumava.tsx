@@ -77,7 +77,7 @@ export const BlogLumava = ({blog}:Props) => {
             </div>
 
           </div>
-          <div className="md:w-[70%] h-full md:border-r-[1px] border-solid border-gray-700">
+          <div className="md:w-[70%] text-xs sm:text-sm md:text-base h-full md:border-r-[1px] border-solid border-gray-700">
             <p className="pb-5">{text.paragraph1}</p>
             <p className="py-5">{text.paragraph2}</p>
             <p className="py-5">{text.paragraph3}</p>
