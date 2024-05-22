@@ -16,7 +16,7 @@ export const DevelopTitle = () => {
                             </div>
                         </div>
                         <div 
-                            className=" text-violet-200 md:text-xl  animation-title-dos text-[0.9em] py-10 "
+                            className=" text-gray-200 md:text-xl  animation-title-dos text-[0.9em] py-10 "
                         >
                             <p 
                             className="text-center text-[0.8em]"

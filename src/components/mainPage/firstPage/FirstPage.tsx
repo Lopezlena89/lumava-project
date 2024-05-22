@@ -6,9 +6,9 @@ import Link from "next/link"
 export const FirstPage = () => {
   return (
     <>
-        <div className=" w-full h-full relative  py-[10%] flex flex-col items-center justify-center">
+        <div className=" w-full h-full relative  py-[10%] flex flex-col font-mono items-center justify-center">
             <div 
-                className="text-gray-200  font-semibold  animation-title font-mono"
+                className="text-gray-200  font-semibold  animation-title "
             >
                 <h1 className="text-center text-5xl md:text-7xl flex flex-col "> 
                         <span className="hover:text-violet-400 duration-700">Bienvenidos a</span>
@@ -24,13 +24,13 @@ export const FirstPage = () => {
                 height={200} 
             />
             <div 
-                className=" text-violet-200 md:text-xl  animation-title-dos text-[0.9em]"
+                className=" text-gray-200 md:text-xl font-sans  animation-title-dos text-[0.9em]"
             >
                 <p className="text-center text-[0.8em]">Empodérate con nuestros servicios </p>
                 <p className="text-center text-[0.8em]"> y convierte tus deseos en adquisiciones</p>
             </div>
             
-            <div className="w-full h-auto flex mt-5 justify-center">
+            <div className="w-full h-auto flex mt-5 font-sans justify-center">
                 <Link 
                     href="/portfolio"
                     className="text-black w-32 md:w-40 h-10 flex text-[0.9em] justify-center items-center rounded-md   

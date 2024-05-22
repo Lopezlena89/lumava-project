@@ -9,30 +9,28 @@ export default function Offers() {
       <>
         <SvgComponent />
         <SvgComponent1/>
-        <main className="principal w-full h-full ">
+        <main className="principal w-full h-full text-gray-200">
             <section className=" w-full h-auto flex flex-col  overflow-hidden">
               <div className="w-full min-h-[250px]   flex flex-col items-center justify-end px-5 ">
                   <div 
-                      className="text-purple-200 font-sans font-semibold animation-title"
+                      className="animation-title relative"
                   >
                       <h3 className="text-center text-4xl md:text-6xl flex flex-col"> 
-                              <span className="bg-gradient-to-r from-purple-200 via-purple-400  to-purple-800
-                                text-transparent bg-clip-text">Paquetes a tu medida </span>
+                              <span className="font-semibold text-gray-200 font-mono hover:text-violet-400 duration-700">Paquetes a tu medida </span>
                               
                       </h3>
                   </div>
                   <div 
-                      className="text-purple-200 font-sans font-semibold text-lg md:text-xl mt-5 animation-title-dos"
+                      className="font-sans  text-lg md:text-xl mt-5 animation-title-dos"
                   >
                       <p className="text-center">{`Tu visión, nuestra creación`} </p>
                       <p className="text-center">{`¡El Futuro Online Comienza Aquí!`}</p>
                   </div>
               </div> 
             </section>
-            <section className="w-[100%]  mt-10 flex flex-col items-center ">
+            <section className="w-[100%]  mt-10 flex flex-col items-center relative">
                 
-                <p className="text-center text-2xl md:text-3xl bg-gradient-to-r from-purple-200 via-purple-400  to-purple-800
-                                text-transparent bg-clip-text">Paquetes Sitios Web </p>
+                <p className="text-center text-2xl md:text-3xl font-mono hover:text-violet-400 duration-700">Paquetes Sitios Web </p>
 
                 <div className="w-full min-h-[450px] grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
                     {

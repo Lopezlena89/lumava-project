@@ -4,11 +4,11 @@ import Link from "next/link"
 export const Characteristic = () => {
   return (
     <>
-        <div className="w-full h-full flex flex-col justify-center items-center">
-            <div className="w-[80%] h-[50px] flex justify-center items-center border-b-2 opacity-85 border-solit border-purple-200">
-                    <h3><Link href="/web-developmen" className="text-purple-200 text-2xl text-center hover:text-violet-500  duration-1000">Desarrollo web</Link></h3>
+        <div className="w-full h-full flex flex-col justify-center items-center text-gray-200">
+            <div className="w-[80%] h-[50px] flex justify-center items-center border-b-2 opacity-85 border-solit border-gray-200">
+                    <h3><Link href="/web-developmen" className=" text-2xl text-center hover:text-violet-500  duration-1000">Desarrollo web</Link></h3>
             </div>
-            <div className="w-[70%] h-full text-purple-200 p-5">
+            <div className="w-[70%] h-full  p-5">
                 <ul className="w-full list-disc">
                     <li>Planificación</li>
                     <li>Diseño</li>
@@ -20,11 +20,11 @@ export const Characteristic = () => {
                 </ul>
             </div>
         </div>
-        <div className="w-full h-full flex flex-col justify-start items-center">
-            <div className="w-[80%] h-[50px] flex justify-center items-center border-b-2 opacity-85 border-solit border-purple-200">
-                    <h3><Link href="#" className="text-purple-200 text-2xl text-center hover:text-violet-500  duration-1000">Diseño & Branding</Link></h3>
+        <div className="w-full h-full flex flex-col justify-start items-center text-gray-200">
+            <div className="w-[80%] h-[50px] flex justify-center items-center border-b-2 opacity-85 border-solit border-gray-200">
+                    <h3><Link href="#" className=" text-2xl text-center hover:text-violet-500  duration-1000">Diseño & Branding</Link></h3>
             </div>
-            <div className="w-[70%] h-full text-purple-200 p-5">
+            <div className="w-[70%] h-full  p-5">
                 <ul className="w-full list-disc">
                     <li>Investigación y análisis</li>
                     <li>Definición de la estrategia de branding</li>
