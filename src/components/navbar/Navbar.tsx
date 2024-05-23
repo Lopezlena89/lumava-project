@@ -20,7 +20,7 @@ export const Navbar = () => {
             >
             
                 <Link href="/"  onClick={()=>closeSideMenu()} className="flex justify-center items-center ">
-                    <h2 className='text-gray-200 text-2xl hover:duration-300 hover:text-violet-400 pr-3'>Lumava</h2>
+                    
                     <Image
                         src="/cloud.svg"
                         width={40}
@@ -28,6 +28,7 @@ export const Navbar = () => {
                         alt="cloud"
                         className='h-[40px]'
                     />
+                    <h2 className='text-gray-200 text-2xl hover:duration-300 hover:text-violet-400 pl-3'>Lumava</h2>
                 </Link>
                 
                 <li className="hidden lg:flex items-center justify-evenly lg:justify-end text-[] lg:text-[0.9em] w-[88%] text-gray-200">
